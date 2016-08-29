@@ -2,9 +2,11 @@
 layout: post
 title: About
 description: Learn about The Revolution
-image: assets/images/Bumper.png
+image: 
 nav-menu: yes
 ---
+
+![The Political Revolution]({{ site.url }}{{ site.baseurl }}/assets/images/Bumper.png "The Political Revolution")
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
 Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. 
