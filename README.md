@@ -2,6 +2,10 @@
 
 ![The Political Revolution](assets/images/Bumper.png "The Political Revolution")
 
+# Color Palette
+
+[!(test)]
+
 # Credits
 
 Original README from HTML5 UP:
