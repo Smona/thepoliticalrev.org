@@ -3114,6 +3114,10 @@
 			#header .logo:active strong {
 				background-color: #D34749;
 			}
+			
+			#header .logo span {
+				color: #43C4DA;
+			}
 
 		#header nav {
 			display: -moz-flex;
