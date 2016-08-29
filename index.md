@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: Join <u>&#x23;theRevolution</u>
+landing-title: Join <em>&#x23;theRevolution</em>
 description: Join the cause in taking the United States back for the People, and create a more open, democratic country for us all.
 image: 
 ---
