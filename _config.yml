@@ -13,12 +13,12 @@ description: Put the People back in power and help create a more <br />open, dem
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://political-revolution.gitlab.io" # the base hostname & protocol for your site
 author: 
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: 
+city: 
+state: 
+zip_code: 
+country: 
+phone: 
 
 # Plugins
 gems:
