@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: About
+description: Learn about The Revolution
 image: assets/images/pic11.jpg
 nav-menu: yes
 ---
