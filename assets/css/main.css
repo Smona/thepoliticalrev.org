@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background: #242943;
+		background: #04243E;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2079,7 +2079,7 @@
 			background: #ffffff;
 			border-color: #9bf1ff;
 			content: '\f00c';
-			color: #242943;
+			color: #04243E;
 		}
 
 		input[type="checkbox"]:focus + label:before,
@@ -2160,7 +2160,7 @@
 		.icon.alt:before {
 			background-color: #ffffff;
 			border-radius: 100%;
-			color: #242943;
+			color: #04243E;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2625,7 +2625,7 @@
 		.button.special {
 			background-color: #ffffff;
 			box-shadow: none;
-			color: #242943;
+			color: #04243E;
 		}
 
 			input[type="submit"].special:hover, input[type="submit"].special:active,
@@ -2638,7 +2638,7 @@
 			.button.special:hover,
 			.button.special:active {
 				background-color: #9bf1ff;
-				color: #242943 !important;
+				color: #04243E !important;
 			}
 
 			input[type="submit"].special:active,
@@ -3100,7 +3100,7 @@
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-				color: #242943;
+				color: #04243E;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3368,7 +3368,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #04243E;
 			content: '';
 			display: block;
 			height: 100%;
