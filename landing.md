@@ -11,7 +11,7 @@ nav-menu: yes
 <section id="banner" class="style2">
 	<div class="inner">
 		<span class="image">
-			<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
+	<img src="{{ site.url }}{{ site.baseurl }}/{{ page.image }}" alt="" />
 		</span>
 		<header class="major">
 			<h1>Landing</h1>
