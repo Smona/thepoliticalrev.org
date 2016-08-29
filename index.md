@@ -12,7 +12,7 @@ nav-menu:
 <section id="banner" class="major">
 	<div class="inner">
 		<header class="major">
-			<h1>{{ page.landing-title }}</h1>
+		    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Bumper.png">
 		</header>
 		<div class="content">
 			<p style="text-transform: uppercase;">{{ site.description }}</p>
