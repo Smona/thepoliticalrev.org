@@ -4,7 +4,11 @@
 
 # Color Palette
 
-[![build status](https://gitlab.com/political-revolution/political-revolution.gitlab.io/badges/master/build.svg)](https://gitlab.com/political-revolution/political-revolution.gitlab.io/commits/master)
+<span style="color: #04243E;">Navy #04243E</span>
+<span style="color: #D34749;">Red #D34749</span>
+<span style="color: #43C4DA;">Aqua #43C4DA</span>
+<span style="color: #F9F9F9;">Cream #F9F9F9</span>
+<span style="color: #B9C3B7;">Olive #B9C3B7</span>
 
 # Credits
 
