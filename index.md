@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: Join the Revolution
-description: 
+description: Join the cause in taking the United States back for the People, and create a more open, democratic country for us all.
 image: 
 author: 
 nav-menu: 
