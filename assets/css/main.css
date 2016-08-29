@@ -3338,9 +3338,9 @@
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		align-items: center;{% if page.image %}
-		background-image: url("{{ page.image }}");
-		{% endif %}display: -moz-flex;
+		align-items: center;
+		background-image: url("http://cdn.history.com/sites/2/2014/02/view-of-moratorium-demonstrators.jpg");
+		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
