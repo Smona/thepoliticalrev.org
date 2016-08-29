@@ -4,7 +4,7 @@
 
 # Color Palette
 
-[![test](dfgsdfhsfghff)](link)
+[![build status](https://gitlab.com/political-revolution/political-revolution.gitlab.io/badges/master/build.svg)](https://gitlab.com/political-revolution/political-revolution.gitlab.io/commits/master)
 
 # Credits
 
