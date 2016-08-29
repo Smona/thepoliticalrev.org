@@ -1,7 +1,5 @@
 # The Political Revolution
 
-Join Progressives in giving America back to the People.
-
 ![The Political Revolution](assets/images/Bumper.png "The Political Revolution")
 
 # Credits
