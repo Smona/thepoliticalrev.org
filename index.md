@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: Join &#x23;theRevolution
 description: Join the cause in taking the United States back for the People, and create a more open, democratic country for us all.
-image: http://cdn.history.com/sites/2/2014/02/view-of-moratorium-demonstrators.jpg
+image: 
 ---
 
 <!-- Banner -->
