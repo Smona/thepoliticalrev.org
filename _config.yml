@@ -9,7 +9,7 @@
 title-bold: The Political
 title-normal: Revolution
 email: youremailaddress@gmail.com
-description: Join the cause in taking the United States back for the People, and <br />create a more open, democratic country for us all.
+description: Join the cause in giving the United States back to the People, and <br />help create a more open, democratic country for us all.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://political-revolution.gitlab.io" # the base hostname & protocol for your site
 author: 
@@ -25,7 +25,6 @@ gems:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jemoji
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages" 
@@ -35,13 +34,13 @@ tiles-count: 6
 500px_url: 
 facebook_url: 
 github_url: 
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+gitlab_url: https://gitlab.com/groups/political-revolution
+googleplus_url: 
+instagram_url: 
+linkedin_url: 
 pinterest_url: 
-slack_url: 
-twitter_url: https://twitter.com/andrewbanchich
+slack_url: https://polrevvols.slack.com/
+twitter_url: 
 
 # Build settings
 markdown: kramdown
