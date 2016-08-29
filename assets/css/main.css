@@ -3112,11 +3112,7 @@
 			}
 
 			#header .logo:active strong {
-				background-color: #D34749;
-			}
-			
-			#header .logo:hover span {
-				background-color: #F9F9F9;
+				background-color: #53e3fb;
 			}
 
 		#header nav {
