@@ -2785,27 +2785,19 @@
 				width: 60%;
 			}
 
-			.tiles article:nth-child(6n - 5):before {
+			.tiles article:nth-child(4n - 3):before {
 				background-color: #D34749;
 			}
 
-			.tiles article:nth-child(6n - 4):before {
+			.tiles article:nth-child(4n - 2):before {
 				background-color: #43C4DA;
 			}
 
-			.tiles article:nth-child(6n - 3):before {
-				background-color: #B9C3B7;
-			}
-
-			.tiles article:nth-child(6n - 2):before {
+			.tiles article:nth-child(4n - 1):before {
 				background-color: #04243E;
 			}
 
-			.tiles article:nth-child(6n - 1):before {
-				background-color: #F9F9F9;
-			}
-
-			.tiles article:nth-child(6n):before {
+			.tiles article:nth-child(4n):before {
 				background-color: #B9C3B7;
 			}
 
