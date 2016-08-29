@@ -4,8 +4,6 @@
 
 # Color Palette
 
-[!(test)]
-
 # Credits
 
 Original README from HTML5 UP:
