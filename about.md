@@ -2,7 +2,7 @@
 layout: post
 title: About
 description: Learn about The Revolution
-image: assets/images/pic11.jpg
+image: assets/images/Bumper.png
 nav-menu: yes
 ---
 
