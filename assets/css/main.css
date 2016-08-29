@@ -3334,9 +3334,9 @@
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		align-items: center;
+		align-items: center;{% if page.image %}
 		background-image: url("{{ page.image }}");
-		display: -moz-flex;
+		{% endif %}display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
