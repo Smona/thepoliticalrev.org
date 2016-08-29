@@ -4,11 +4,7 @@
 
 # Color Palette
 
-<span style="color: #04243E;">Navy</span> #04243E<br />
-<span style="color: #D34749;">Red</span> #D34749<br />
-<span style="color: #43C4DA;">Aqua</span> #43C4DA<br />
-<span style="color: #F9F9F9;">Cream</span> #F9F9F9<br />
-<span style="color: #B9C3B7;">Olive</span> #B9C3B7
+Navy #04243E - Red #D34749 - Aqua #43C4DA - Cream #F9F9F9 - Olive #B9C3B7
 
 # Credits
 
