@@ -4,7 +4,7 @@
 
 # Color Palette
 
-Navy #04243E - Red #D34749 - Aqua #43C4DA - Cream #F9F9F9 - Olive #B9C3B7
+Navy #04243E &middot; Red #D34749 &middot; Aqua #43C4DA &middot; Cream #F9F9F9 &middot; Olive #B9C3B7
 
 # Credits
 
