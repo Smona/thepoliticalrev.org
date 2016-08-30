@@ -6,19 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title-bold: The Revolution
+title-bold: The Political Revolution
 title-normal: Progressives for the People
 email: info@thepoliticalrev.org
 description: Put the People back in power and help create a more open democracy.<br />Contribute in any way you can.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://political-revolution.gitlab.io" # the base hostname & protocol for your site
-author: 
-street_address: 
-city: 
-state: 
-zip_code: 
-country: 
-phone: 
+author:
+street_address:
+city:
+state:
+zip_code:
+country:
+phone:
 
 # Plugins
 gems:
@@ -27,31 +27,31 @@ gems:
   - jekyll-feed
 
 # Homepage tiles
-tiles-source: posts # accepts "posts" or "pages" 
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 4
 
 # Social settings
-500px_url: 
-facebook_url: 
-github_url: 
+500px_url:
+facebook_url:
+github_url:
 gitlab_url: https://gitlab.com/groups/political-revolution
-googleplus_url: 
-instagram_url: 
-linkedin_url: 
-pinterest_url: 
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
 slack_url: https://polrevvols.slack.com/
-twitter_url: 
+twitter_url:
 
 # Build settings
 markdown: kramdown
 
 # Plugin: jekyll-seo-tag
 twitter:
-  username: 
+  username:
 # Add one or more of the following
 facebook:
-  app_id: 
-  publisher: 
-  admins: 
+  app_id:
+  publisher:
+  admins:
 logo:
-google_site_verification: 
+google_site_verification:
