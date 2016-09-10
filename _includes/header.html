@@ -17,13 +17,8 @@
 		        <li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
-		{% for page in site.pages %}
-		    {% if page.layout != "home" %}
-		        {% if page.nav-menu == "yes" %}
-		        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-		        {% endif %}
-		    {% endif %}
-		{% endfor %}
+		        <li><a href="{{ page.url | prepend: site.baseurl }}/about.html">About</a></li>
+		        <li><a href="{{ page.url | prepend: site.baseurl }}/candidates.html">Candidates</a></li>
 	</ul>
 	<ul class="actions vertical">
 		<li><a href="{{ site.url }}{{ site.baseurl }}/vote.html" class="button special fit">Register to Vote</a></li>
