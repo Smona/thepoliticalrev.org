@@ -38,7 +38,9 @@ nav-menu: no
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-			<img src="assets/images/NVRD-Social-Graphics-04.png" class="image" alt="" data-position="center center" />
+	    <a href="generic.html" class="image">
+			<img src="assets/images/NVRD-Social-Graphics-04.png" alt="" data-position="center center" />
+		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
