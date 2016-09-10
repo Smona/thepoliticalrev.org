@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About
 description: Learn about The Revolution
 image: 
