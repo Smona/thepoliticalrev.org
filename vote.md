@@ -2,7 +2,7 @@
 layout: landing
 title: Register to Vote
 description: Lorem ipsum dolor sit amet nullam consequat<br />sed veroeros. tempus adipiscing nulla.
-image: assets/images/NVRD-Social-Graphics-04.png
+image: assets/images/pic07.jpg
 nav-menu: no
 ---
 
@@ -39,7 +39,7 @@ nav-menu: no
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
+			<img src="assets/images/NVRD-Social-Graphics-04.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
