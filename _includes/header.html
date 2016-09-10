@@ -19,7 +19,7 @@
 		{% endfor %}
 		{% for page in site.pages %}
 		    {% if page.layout != "home" %}
-		        {% if page.menu === "yes" %}
+		        {% if page.nav-menu == "yes" %}
 		        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 		        {% endif %}
 		    {% endif %}
