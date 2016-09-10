@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: landing
 title: Candidates
 description: Our edorsements
 image: 
