@@ -3,7 +3,7 @@ layout: page
 title: About
 description: Learn about The Revolution
 image: 
-nav-menu: yes
+menu: yes
 ---
 
 <img src="assets/images/Bumper.png" style="max-width: 750px;">
