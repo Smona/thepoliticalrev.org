@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: Landing
+title: Candidates
 description: Lorem ipsum dolor sit amet nullam consequat<br />sed veroeros. tempus adipiscing nulla.
 image: assets/images/pic07.jpg
 nav-menu: yes
@@ -14,7 +14,7 @@ nav-menu: yes
 	<img src="{{ site.url }}{{ site.baseurl }}/{{ page.image }}" alt="" />
 		</span>
 		<header class="major">
-			<h1>Landing</h1>
+			<h1>{{ page.title }}</h1>
 		</header>
 		<div class="content">
 			<p>{{ page.description }}</p>
