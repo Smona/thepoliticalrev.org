@@ -2,7 +2,7 @@
 layout: landing
 title: Register to Vote
 description: Lorem ipsum dolor sit amet nullam consequat<br />sed veroeros. tempus adipiscing nulla.
-image: assets/images/pic07.jpg
+image: assets/images/NVRD-Social-Graphics-04.png
 nav-menu: no
 ---
 
