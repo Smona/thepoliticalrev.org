@@ -3,7 +3,7 @@ layout: landing
 title: Register to Vote
 description: Lorem ipsum dolor sit amet nullam consequat<br />sed veroeros. tempus adipiscing nulla.
 image: assets/images/pic07.jpg
-nav-menu: yes
+nav-menu: no
 ---
 
 <!-- Banner -->
