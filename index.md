@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: <em>Join &#x23;theRevolution</em>
+landing-title: <em>Join &#x23;ourRevolution</em>
 description: 
 image: 
 ---
