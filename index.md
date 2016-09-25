@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Home
-landing-title: <em>Join &#x23;theRevolution</em>
-description: 
-image: 
+landing-title: <em>Join The Revolution</em>
+description:
+image:
 ---
 
 <!-- Banner -->
@@ -41,4 +41,3 @@ image:
 </section>
 
 </div>
-
