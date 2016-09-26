@@ -39,3 +39,5 @@ build/
 .rvmrc
 
 /_site/
+
+prepros.cfg
