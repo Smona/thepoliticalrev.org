@@ -2,7 +2,7 @@
 layout: post
 title: About
 description: Learn about The Revolution
-image: 
+image:
 nav-menu: yes
 ---
 
@@ -14,5 +14,5 @@ The Political Revolution presently operates as a portal for candidates to introd
 
 The Political Revolution was founded by the core team of Grassroots for Sanders, a similarly all-volunteer group that reached millions of people, spawned dozens of unique tools, and raised over $12 million dollars for the Sanders’ campaign.
 
-For more information as to how to meet our community please email us at info@thepoliticalrev.org
-For press inquiries please email us at press@thepoliticalrev.org
+For more information as to how to meet our community please email us at info@thepoliticalrev.org.
+For press inquiries please email us at press@thepoliticalrev.org.
