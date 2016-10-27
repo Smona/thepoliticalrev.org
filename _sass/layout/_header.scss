@@ -131,6 +131,9 @@
 
 		&.reveal {
 			@include vendor('animation', 'reveal-header 0.35s ease');
+			.logo {
+				display: inline-block;
+			}
 		}
 
 		&.alt {
@@ -140,6 +143,7 @@
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
+			top: 0;
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 { .logo { strong { color: _palette(accent2); } } }
@@ -147,6 +151,10 @@
 			&.style4 { .logo { strong { color: _palette(accent4); } } }
 			&.style5 { .logo { strong { color: _palette(accent5); } } }
 			&.style6 { .logo { strong { color: _palette(accent6); } } }
+
+			.logo {
+				display: none;
+			}
 		}
 
 		body.is-loading & {

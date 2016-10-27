@@ -9,9 +9,9 @@ image:
 <!-- Banner -->
 <section id="banner" class="major">
 	<div class="inner">
-		<header class="major">
+		<!-- <header class="major">
 			<h1>{{ page.landing-title }}</h1>
-		</header>
+		</header> -->
 		<div class="content">
 			<p style="text-transform: uppercase;">{{ site.description }}</p>
 			<ul class="actions">
