@@ -10,7 +10,7 @@ title-bold: The Political Revolution
 title-normal: Progressives for the People
 email: info@thepoliticalrev.org
 description: Put the People back in power and help create a more open democracy.<br />Contribute in any way you can.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://political-revolution.gitlab.io" # the base hostname & protocol for your site
 author:
 street_address:
@@ -33,12 +33,12 @@ tiles-count: 4
 # Social settings
 medium_url: https://medium.com/@OurPoliticalRev
 facebook_url: https://www.facebook.com/ThePoliticalRev/
-github_url: 
+github_url:
 gitlab_url: https://gitlab.com/groups/political-revolution
-googleplus_url: 
-instagram_url: 
-linkedin_url: 
-pinterest_url: 
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
 slack_url: https://polrevvols.slack.com/
 twitter_url: https://twitter.com/OurPoliticalRev
 
