@@ -12,14 +12,15 @@
         </article>
 	{% endif %}
 	{% endfor %}
-	{% for page in site.pages limit:site.tiles-count %}
+	{% assign pages = site.pages | where: "layout", "page" %}
+	{% for page in pages limit:site.tiles-count %}
 	{% if site.tiles-source == 'pages' %}
         <article>
                 <span class="image">
-                        <img src="{{ page.image }}" alt="" />
+                        <img src="{{ site.baseurl }}assets/images/{{ page.image }}" alt="" />
                 </span>
                 <header class="major">
-                        <h3><a href="{{ site.baseurl }}{{ page.url }}" class="link">{{ page.title }}</a></h3>
+                        <h3><a href="{{ page.url }}" class="link">{{ page.title }}</a></h3>
                         <p>{{ page.description }}</p>
                 </header>
         </article>

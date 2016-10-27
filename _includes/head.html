@@ -1,5 +1,5 @@
 <head>
-	<title>{{ site.title }}</title>
+	<title>{% if page.title != '' %}{{ page.title }}{% else %}{{ site.title-bold }}{% endif %}</title>
 	{% seo %}
 	{% feed_meta %}
 	<meta charset="utf-8" />

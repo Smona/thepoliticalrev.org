@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home
 landing-title: <em>Join The Revolution</em>
 description:
 image:

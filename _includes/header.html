@@ -12,14 +12,14 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
+        {% for link in site.pages %}
+		    {% if link.layout == "home" and page.layout != "home" %}
+		        <li><a href="{{ site.baseurl }}">Home</a></li>
 	    	{% endif %}
 		{% endfor %}
-		        <li><a href="{{ site.url }}{{ site.baseurl }}/about.html">About</a></li>
-		        <li><a href="{{ site.url }}{{ site.baseurl }}/candidates.html">Candidates</a></li>
-		        <li><a href="{{ site.url }}{{ site.baseurl }}/events.html">Events</a></li>
+		        <li><a href="{{ site.baseurl }}about/">About</a></li>
+		        <li><a href="{{ site.baseurl }}candidates/">Candidates</a></li>
+		        <li><a href="{{ site.baseurl }}events.html">Events</a></li>
 	</ul>
 	<ul class="actions vertical">
 		<li><a href="{{ site.url }}{{ site.baseurl }}/vote.html" class="button special fit">Register to Vote</a></li>

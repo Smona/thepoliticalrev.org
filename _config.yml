@@ -27,8 +27,8 @@ gems:
   - jekyll-feed
 
 # Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 4
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 8
 
 # Social settings
 medium_url: https://medium.com/@OurPoliticalRev
@@ -44,6 +44,16 @@ twitter_url: https://twitter.com/OurPoliticalRev
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      title: ""
 
 # Plugin: jekyll-seo-tag
 twitter:

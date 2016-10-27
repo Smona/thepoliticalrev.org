@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: page
 title: About
 description: Learn about The Revolution
-image:
+image: volunteers.jpg
 nav-menu: yes
 ---
 
-<img src="assets/images/Bumper.png" style="max-width: 750px;">
+<img src="{{ site.baseurl }}assets/images/Bumper.png" style="max-width: 750px;">
 
 Born from the now famous call to action in 2016, The Political Revolution is an all-volunteer progressive group dedicated to the promotion of candidates, issues, and groups that represent the continuation of Bernie Sanders’ presidential campaign.
 
