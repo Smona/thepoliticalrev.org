@@ -41,8 +41,8 @@
 					'background-color #{_duration(transition)} ease-in-out',
 					'color #{_duration(transition)} ease-in-out'
 				));
-				background-color: _palette(fg-bold);
-				color: _palette(bg);
+				background-color: _palette(accent1);
+				color: _palette(fg-bold);
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -59,6 +59,10 @@
 				strong {
 					background-color: desaturate(darken(_palette(highlight), 15), 5);
 				}
+			}
+
+			span {
+				color: _palette(accent2);
 			}
 		}
 
