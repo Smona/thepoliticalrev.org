@@ -39,5 +39,6 @@ build/
 .rvmrc
 
 /_site/
+.sass-cache
 
 prepros.cfg
