@@ -40,6 +40,7 @@
 				letter-spacing: _font(letter-spacing-alt);
 				margin-bottom: 0;
 				text-transform: uppercase;
+				text-shadow: 1px 1px 0px fade-out(_palette(bg), .3);
 			}
 
 			body.is-ie & {

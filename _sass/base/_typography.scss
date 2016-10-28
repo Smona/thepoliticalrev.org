@@ -27,6 +27,11 @@
 		}
 	}
 
+	::selection {
+		background-color: _palette(accent2);
+		color: _palette(fg-bold);
+	}
+
 	a {
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',

@@ -94,6 +94,7 @@
 					font-weight: _font(weight-bold);
 					letter-spacing: _font(letter-spacing-alt);
 					text-transform: uppercase;
+					text-shadow: 1px 1px 0px fade-out(_palette(bg), .3);
 				}
 			}
 		}

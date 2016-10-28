@@ -47,6 +47,7 @@
 
 			h3 {
 				font-size: 1.75em;
+				text-shadow: 1px 2px fade-out(_palette(bg), .5);
 
 				a {
 					&:hover {
