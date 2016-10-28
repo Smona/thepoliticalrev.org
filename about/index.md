@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
+title: About Us
 description: Learn about The Revolution
-image: volunteers.jpg
+image: banner.jpg
 nav-menu: yes
 ---
 

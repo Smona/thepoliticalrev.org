@@ -3,6 +3,8 @@ import ReactDom from 'react-dom';
 import CandidateList from './CandidateList';
 
 var candidates = ['Bernie', 'Zephyr', 'Russ'];
+var spreadsheetID = '1rIiEAMjfPTa5j4ttsehoFi939I9FfnqyE5dKy802474';
+var sheetID = '163578027';
 
 class FilterableCandidateList extends React.Component {
 	render() {
