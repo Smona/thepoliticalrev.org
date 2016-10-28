@@ -13,8 +13,8 @@ image:
 		</header>
 		<div class="content">
 			<p style="text-transform: uppercase;">{{ site.description }}</p>
-			<form id="email-signup" autocomplete="on">
-				<input type="email" name="email"  placeholder="johndoe@gmail.com"/>
+			<form id="email-signup" autocomplete="on" method="post" action="https://tinyletter.com/ThePoliticalRevolution">
+				<input type="email" name="email" id="email" placeholder="johndoe@gmail.com"/>
 				<button type="submit">Join</button>
 			</form>
 			<!-- <ul class="actions">
