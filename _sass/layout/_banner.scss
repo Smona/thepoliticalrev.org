@@ -42,6 +42,7 @@
 
 		h1 {
 			font-size: 3.25em;
+			display: none;
 		}
 
 		> .inner {
@@ -53,7 +54,6 @@
 			));
 			padding: 0 !important;
 			position: absolute;
-			// top: $content-offset - 100px;
 			bottom: 0;
 			left: 5%;
 			z-index: 2;
@@ -89,6 +89,7 @@
 				}
 
 				p {
+					width: 66%;
 					font-size: 0.7em;
 					font-weight: _font(weight-bold);
 					letter-spacing: _font(letter-spacing-alt);
@@ -148,6 +149,9 @@
 			> .inner {
 				.content {
 					display: block;
+					p {
+						width: 100%;
+					}
 
 					> * {
 						margin-left: 0;

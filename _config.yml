@@ -9,7 +9,7 @@
 title-bold: The Political Revolution
 title-normal: Progressives for the People
 email: info@thepoliticalrev.org
-description: Put the People back in power and help create a more open democracy.<br />Contribute in any way you can.
+description: "We are a volunteer-run organization working to get candidates inspired by the Bernie Sanders platform into office. Sign up below to join the Revolution:" 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://political-revolution.gitlab.io" # the base hostname & protocol for your site
 author:

@@ -8,14 +8,18 @@ image:
 <!-- Banner -->
 <section id="banner" class="major">
 	<div class="inner">
-		<!-- <header class="major">
+		<header class="major">
 			<h1>{{ page.landing-title }}</h1>
-		</header> -->
+		</header>
 		<div class="content">
 			<p style="text-transform: uppercase;">{{ site.description }}</p>
-			<ul class="actions">
+			<form id="email-signup" autocomplete="on">
+				<input type="email" name="email"  placeholder="johndoe@gmail.com"/>
+				<button type="submit">Join</button>
+			</form>
+			<!-- <ul class="actions">
 				<li><a href="#one" class="button next scrolly">More</a></li>
-			</ul>
+			</ul> -->
 		</div>
 	</div>
 </section>
