@@ -43,11 +43,15 @@
 			header {
 				position: relative;
 				z-index: 3;
+				p {
+					@include vendor('transition', 'text-shadow 0.5s ease');
+				}
 			}
 
 			h3 {
 				font-size: 1.75em;
-				text-shadow: 1px 2px fade-out(_palette(bg), .5);
+				// text-shadow: 1px 2px fade-out(_palette(bg), .5);
+				@include vendor('transition', 'text-shadow 0.5s ease');
 
 				a {
 					&:hover {
@@ -92,6 +96,12 @@
 			}
 
 			&:hover {
+				header>p {
+					text-shadow: 1px 1px 0px fade-out(_palette(bg), .5);
+				}
+				h3 {
+					text-shadow: 1px 2px fade-out(_palette(bg), .3);
+				}
 				&:before {
 					opacity: 0;
 				}
