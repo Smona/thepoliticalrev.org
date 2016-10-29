@@ -38,7 +38,7 @@ image:
 		</header>
 		<p>With your help, we can build a better United States for everyone, not just the top one percent.</p>
 		<ul class="actions">
-			<li><a href="2016/08/25/aliquam.html" class="button next">Get Started</a></li>
+			<li><a href="{{ site.baseurl }}fight" class="button next">Get Started</a></li>
 		</ul>
 	</div>
 </section>
