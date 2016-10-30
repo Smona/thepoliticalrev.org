@@ -88,7 +88,7 @@
 				complete: function complete(results, file) {
 					candidates = results;
 					console.log(candidates);
-					_reactDom2.default.render(_react2.default.createElement(FilterableCandidateList, { items: candidates }), document.getElementById('CandidateList'));
+					_reactDom2.default.render(_react2.default.createElement(FilterableCandidateList, { items: candidates }), document.getElementById('root'));
 				}
 			});
 		}
@@ -21542,11 +21542,11 @@
 				var candidates = this.props.items;
 				return _react2.default.createElement(
 					'ul',
-					null,
+					{ className: 'candidate-list' },
 					candidates.data.map(function (candidate) {
 						return _react2.default.createElement(
 							'li',
-							null,
+							{ key: candidate["Candidate Name"], className: 'candidate' },
 							_react2.default.createElement(_Candidate2.default, { me: candidate })
 						);
 					})
@@ -21595,11 +21595,25 @@
 		_createClass(Candidate, [{
 			key: "render",
 			value: function render() {
+				var me = this.props.me;
+				var name = me["Candidate Name"];
 				return _react2.default.createElement(
-					"p",
+					"div",
 					null,
-					"Im a candidate! My name is ",
-					this.props.me["Candidate Name"]
+					_react2.default.createElement(
+						"h3",
+						null,
+						_react2.default.createElement(
+							"a",
+							{ href: me.Link_link },
+							name
+						)
+					),
+					_react2.default.createElement(
+						"p",
+						null,
+						me.State
+					)
 				);
 			}
 		}]);

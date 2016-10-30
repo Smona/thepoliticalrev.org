@@ -18,7 +18,7 @@ $.get({
 				console.log(candidates);
 				ReactDom.render(
 					<FilterableCandidateList items={candidates} />,
-					document.getElementById('CandidateList')
+					document.getElementById('root')
 				);
 			}
 		});
