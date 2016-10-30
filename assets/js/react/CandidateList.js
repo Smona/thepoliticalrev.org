@@ -4,10 +4,10 @@ import Candidate from './Candidate';
 
 class CandidateList extends React.Component {
 	render() {
-		let data = this.props.items;
+		var candidates = this.props.items;
 		return (
 			<ul>
-				{data.map((cName) => <li><Candidate name={cName} /></li>)}
+				{candidates.data.map((candidate) => <li><Candidate me={candidate} /></li>)}
 			</ul>
 		)
 	}
