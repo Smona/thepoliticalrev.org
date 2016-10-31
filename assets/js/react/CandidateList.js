@@ -7,7 +7,12 @@ class CandidateList extends React.Component {
 		var candidates = this.props.items;
 		return (
 			<ul className="candidate-list">
-				{candidates.data.map((candidate) => <li key={candidate["Candidate Name"]} className="candidate"><Candidate me={candidate} /></li>)}
+				{candidates.data.map(function (candidate) {
+				 	if (candidate["Candidate Name"]) {
+					 	return (<li key={candidate["Candidate Name"]}><Candidate me={candidate} /></li>);
+				 	}
+		 		 }
+		 		)}
 			</ul>
 		)
 	}

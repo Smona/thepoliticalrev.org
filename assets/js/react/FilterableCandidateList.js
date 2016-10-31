@@ -28,10 +28,13 @@ $.get({
 class FilterableCandidateList extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="FilterableCandidateList">
 				<h1>Endorsed Candidates</h1>
 				<label>Filter by state:</label>
-				<select />
+				<select>
+					<option>Alabama</option>
+					<option>Alaska</option>
+				</select>
 				<CandidateList items={this.props.items} />
 			</div>
 		);
