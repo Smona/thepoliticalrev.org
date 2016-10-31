@@ -4,24 +4,25 @@
 	.candidate-list
 		display: flex
 		flex-flow: row wrap
-		justify-content: space-around
+		justify-content: center
 		list-style: none
 		font-size: 1rem
 		>li
-			margin: 1rem
+			margin: 3px
+			padding: 0
 			flex-grow: 1
-			max-width: 400px
-			flex-basis: 200px
+			// flex-basis: 200px
 			display: block
 
 		.candidate
 			background: _palette(fg)
-			border-radius: _size(border-radius)
-			height: 200px
 			padding: 1em
+			height: 250px
+			width: 100%
+			min-width: 250px
 			transition: transform 0.25s ease, box-shadow 0.25s ease
 			&:hover
-				transform: scale(1.07)
+				transform: scale(1.01)
 				box-shadow: 0 2px 5px rgba(0, 0, 0, .2)
 			*
 				color:  _palette(bg)
