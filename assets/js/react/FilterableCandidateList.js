@@ -3,6 +3,7 @@ import ReactDom from 'react-dom';
 import CandidateList from './CandidateList';
 import PapaParse from 'papaparse';
 import $ from 'jquery';
+require('./candidate-list.sass');
 
 // var candidates = ['Bernie', 'Zephyr', 'Russ'];
 var spreadsheetID = '1rIiEAMjfPTa5j4ttsehoFi939I9FfnqyE5dKy802474';
