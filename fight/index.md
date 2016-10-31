@@ -4,6 +4,7 @@ title: Get Involved
 description: Want to join the fight? Find out how.
 image: volunteers.jpg
 nav-menu: yes
+tile: yes
 ---
 We can change the future of America, but we need your help. Here are some of the many ways you can help:
 

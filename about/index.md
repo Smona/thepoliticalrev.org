@@ -5,6 +5,7 @@ description: Learn about The Revolution
 image: banner.jpg
 banner: Bumper.png
 nav-menu: yes
+tile: yes
 ---
 
 # What is The Political Revolution?

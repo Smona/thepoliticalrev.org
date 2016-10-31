@@ -12,18 +12,17 @@
         </article>
 	{% endif %}
 	{% endfor %}
-	{% assign pages = site.pages | where: "layout", "page" %}
-	{% for page in pages limit:site.tiles-count %}
-	{% if site.tiles-source == 'pages' %}
-        <article>
-                <span class="image">
-                        <img src="{{ site.baseurl }}assets/images/{{ page.image }}" alt="Page Header" />
-                </span>
-                <header class="major">
-                        <h3><a href="{{ page.url }}" class="link">{{ page.title }}</a></h3>
-                        <p>{{ page.description }}</p>
-                </header>
-        </article>
-	{% endif %}
+	{% for page in site.pages %}
+		{% if site.tiles-source == 'pages' and page.tile %}
+	        <article>
+	                <span class="image">
+	                        <img src="{{ site.baseurl }}assets/images/{{ page.image }}" alt="Page Header" />
+	                </span>
+	                <header class="major">
+	                        <h3><a href="{{ page.url }}" class="link">{{ page.title }}</a></h3>
+	                        <p>{{ page.description }}</p>
+	                </header>
+	        </article>
+		{% endif %}
 	{% endfor %}
 </section>
