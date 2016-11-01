@@ -41,6 +41,7 @@ linkedin_url:
 pinterest_url:
 slack_url: https://polrevvols.herokuapp.com/
 twitter_url: https://twitter.com/OurPoliticalRev
+subreddit_url: https://reddit.com/r/Political_Revolution
 
 # Build settings
 markdown: kramdown

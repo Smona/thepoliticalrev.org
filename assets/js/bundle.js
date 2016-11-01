@@ -112,27 +112,17 @@
 					'div',
 					{ className: 'FilterableCandidateList' },
 					_react2.default.createElement(
-						'h1',
-						null,
-						'Endorsed Candidates'
-					),
-					_react2.default.createElement(
-						'label',
-						null,
-						'Filter by state:'
-					),
-					_react2.default.createElement(
-						'select',
-						null,
+						'main',
+						{ className: 'text-wrapper' },
 						_react2.default.createElement(
-							'option',
+							'h1',
 							null,
-							'Alabama'
+							'Endorsed Candidates'
 						),
 						_react2.default.createElement(
-							'option',
+							'p',
 							null,
-							'Alaska'
+							'These are the candidates that will fight for our values. Scroll down to your state and click on a candidate for more information and how to contribute'
 						)
 					),
 					_react2.default.createElement(_CandidateList2.default, { items: this.props.items })

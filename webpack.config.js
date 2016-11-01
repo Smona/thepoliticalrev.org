@@ -9,7 +9,7 @@ module.exports = {
     module: {
 			loaders: [
     		{ test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
-        { test: /\.sass$/, loader: "style!css?autoprefixer?minifySelectors?modules!sass"}
+        { test: /\.sass$/, loader: "style!css?autoprefixer?minifySelectors!sass"}
   		]
     }
 };

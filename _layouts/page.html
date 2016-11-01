@@ -12,10 +12,10 @@
 
     {% include header.html %}
     {% if page.banner != 'no' %}
-      <img src="{{ site.baseurl }}assets/images/{{ page.banner }}" style="max-width: 100%;">
+      <img src="{{ site.baseurl }}assets/images/{{ page.banner }}" class="image fit">
     {% endif %}
 
-    <main class="page">
+    <main class="page text-wrapper">
       {{ content }}
     </main>
     {% include footer.html %}
