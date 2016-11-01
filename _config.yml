@@ -47,6 +47,10 @@ subreddit_url: https://reddit.com/r/Political_Revolution
 markdown: kramdown
 sass:
   style: compressed
+compress_html:
+  clippings: all
+  comments:  ["<!-- ", " -->"]
+  endings:   all
 
 # Defaults
 defaults:
