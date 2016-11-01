@@ -7,7 +7,7 @@ nav-menu: yes
 tile: yes
 ---
 
-# Get involved
+# Get Involved
 
 We can change the future of America, but we need your help. Here are some ways to get started:
 

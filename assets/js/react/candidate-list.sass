@@ -12,12 +12,16 @@
 		list-style: none
 		font-size: 1rem
 		padding: 0
+		max-width: 1249px
 		>li
 			margin: 3px
 			padding: 0
 			flex-grow: 1
 			flex-basis: 250px
+			max-width: 400px
 			display: block
+			@media all and (max-width: 568px)
+				//  max-width: 100%
 
 		.candidate
 			background: _palette(bg-alt)
@@ -40,6 +44,8 @@
 				h3
 					display: inline
 					word-break: keep-all
+				span
+					word-wrap: 
 				*
 					color: _palette(fg)
 			&:hover

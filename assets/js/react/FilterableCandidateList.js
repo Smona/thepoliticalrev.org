@@ -30,10 +30,6 @@ class FilterableCandidateList extends React.Component {
 	render() {
 		return (
 			<div className="FilterableCandidateList">
-				<main className="text-wrapper">
-				<h1>Endorsed Candidates</h1>
-				<p>These are the candidates that will fight for our values. Scroll down to your state and click on a candidate for more information and how to contribute</p>
-				</main>
 			{/*<label>Filter by state:</label>
 				<select>
 					<option>Alabama</option>
