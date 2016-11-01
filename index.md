@@ -14,6 +14,7 @@ image:
 		<div class="content">
 			<p style="text-transform: uppercase;">We are a volunteer-run organization working to get candidates inspired by the Bernie Sanders platform into office. Sign up to our mailing list to join the Revolution:</p>
 			<form id="email-signup" autocomplete="on" method="post" action="https://tinyletter.com/ThePoliticalRevolution">
+				<label for="email">Email</label>
 				<input type="email" name="email" id="email" placeholder="johndoe@gmail.com"/>
 				<button type="submit">Join</button>
 			</form>
