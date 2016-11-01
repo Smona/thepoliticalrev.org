@@ -11,6 +11,7 @@
 		justify-content: center
 		list-style: none
 		font-size: 1rem
+		padding: 0
 		>li
 			margin: 3px
 			padding: 0
@@ -19,12 +20,28 @@
 			display: block
 
 		.candidate
-			background: _palette(fg)
+			background: _palette(bg-alt)
+			background-repeat: no-repeat
+			background-size: cover
+			background-position: center
 			padding: 1em
+			position: relative
 			height: 250px
 			width: 100%
 			min-width: 250px
 			transition: transform 0.25s ease, box-shadow 0.25s ease
+			header
+				position: absolute
+				bottom: 0
+				left: 0
+				background: fade-out(_palette(bg-alt), .1)
+				padding: 4px 1em
+				width: 100%
+				h3
+					display: inline
+					word-break: keep-all
+				*
+					color: _palette(fg)
 			&:hover
 				transform: scale(1.01)
 				box-shadow: 0 2px 5px rgba(0, 0, 0, .2)
