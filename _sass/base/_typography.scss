@@ -131,8 +131,14 @@
 		font-style: italic;
 		font-size: 1.1em;
 		font-weight: 100;
-		margin: _size(element-margin) 0 _size(element-margin) 0;
-		padding: (_size(element-margin) / 3) 0 (_size(element-margin) / 3) (_size(element-margin) * 2);
+		margin: _size(element-margin) (_size(element-margin) * 1.5) _size(element-margin);
+		padding: (_size(element-margin) / 2) 2em;
+		color: _palette(accent1) !important;
+		background: _palette(fg-bold);
+		box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+		p {
+			margin: 0;
+		}
 	}
 
 	code {
