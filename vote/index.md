@@ -9,4 +9,6 @@ tile: yes
 
 ## Register to Vote
 
-The most important step in getting ready to vote is registering! Different states have different deadlines, so if you aren't registered, go [Register to Vote Here](https://register2.rockthevote.com/?partner=35898).
+The most important step in getting ready to vote is registering! Different states have different deadlines, so if you aren't registered, register through [Rock the Vote](https://www.rockthevote.com/about-us/) now:
+
+<iframe src="https://register2.rockthevote.com/registrants/map/?source=iframe&partner=35898" width="100%" height="1200" marginheight="0" frameborder="0"></iframe>

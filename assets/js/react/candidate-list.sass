@@ -41,15 +41,16 @@
 				background: fade-out(_palette(bg-alt), .1)
 				padding: 4px 1em
 				width: 100%
+				transition: background 0.25s ease
 				h3
 					display: inline
 					word-break: keep-all
-				span
-					word-wrap: 
 				*
 					color: _palette(fg)
 			&:hover
-				transform: scale(1.01)
-				box-shadow: 0 2px 5px rgba(0, 0, 0, .2)
+				header
+					background: _palette(bg-alt)
+				// transform: scale(1.01)
+				// box-shadow: 0 2px 5px rgba(0, 0, 0, .2)
 			*
 				color:  _palette(bg)
