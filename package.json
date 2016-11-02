@@ -4,7 +4,8 @@
   "description": "Website for the Political Revolution movement",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --config ./webpack.production.config.js"
   },
   "repository": {
     "type": "git",

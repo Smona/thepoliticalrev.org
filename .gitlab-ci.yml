@@ -5,8 +5,8 @@ bundlejs:
   image: node:7.0.0
   stage: build
   script:
-    - npm install
-    - webpack -p --config ./webpack.production.config.js
+    - npm install --silent
+    - npm build
 
 test:
   image: ruby:2.3
