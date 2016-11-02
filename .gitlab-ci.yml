@@ -1,11 +1,9 @@
-
-cache:
-  paths:
-    - node_modules/
-
 bundlejs:
   image: node:7.0.0
   stage: build
+  cache:
+    paths:
+      - node_modules/
   script:
     - npm install --silent
     - npm build
@@ -20,6 +18,8 @@ test:
   script:
   - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
   - jekyll build -d test
+  dependencies:
+    - bundlejs
   artifacts:
     paths:
     - test
@@ -28,10 +28,14 @@ test:
 
 pages:
   image: ruby:2.3
+  services:
+    -
   stage: deploy
   script:
   - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
   - jekyll build -d public
+  dependencies:
+    - bundlejs
   artifacts:
     paths:
     - public
