@@ -7,7 +7,7 @@ class Candidate extends React.Component {
 	}
 	render() {
 		var me = this.props.me;
-		var name = me["Candidate Name"];
+		var name = me['Candidate Name'];
 		return (
 			<a href={me.Link_link}><div className="candidate" style={{backgroundImage: this.getPicture(me.Link_link)}}>
 				<header>
