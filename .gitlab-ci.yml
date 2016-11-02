@@ -1,14 +1,15 @@
 # This file is a template, and might need editing before it works on your project.
 # Full project: https://gitlab.com/pages/jekyll
-image: ruby:2.3
 
 bundlejs:
+  image: node:7.0.0
   stage: build
   script:
     - npm install
     - webpack -p --config ./webpack.production.config.js
 
 test:
+  image: ruby:2.3
   stage: test
   script:
   - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
@@ -20,6 +21,7 @@ test:
   - master
 
 pages:
+  image: ruby:2.3
   stage: deploy
   script:
   - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
