@@ -5,6 +5,7 @@ image: ruby:2.3
 bundlejs:
   stage: build
   script:
+    - npm install
     - webpack -p --config ./webpack.production.config.js
 
 test:
