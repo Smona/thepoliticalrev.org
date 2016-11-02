@@ -24,13 +24,13 @@
 				//  max-width: 100%
 
 		.candidate
+			$height-candidate: 250px
 			background: _palette(bg-alt)
 			background-repeat: no-repeat
 			background-size: cover
 			background-position: center
-			padding: 1em
 			position: relative
-			height: 250px
+			height: $height-candidate
 			width: 100%
 			min-width: 250px
 			transition: transform 0.25s ease, box-shadow 0.25s ease
@@ -47,6 +47,14 @@
 					word-break: keep-all
 				*
 					color: _palette(fg)
+			section
+				background: fade-out(_palette(fg), .1)
+				padding: 1em
+				width: 100%
+				height: $height-candidate
+				span
+					display: block
+
 			&:hover
 				header
 					background: _palette(bg-alt)
