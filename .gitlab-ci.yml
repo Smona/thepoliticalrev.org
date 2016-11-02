@@ -2,6 +2,11 @@
 # Full project: https://gitlab.com/pages/jekyll
 image: ruby:2.3
 
+bundlejs:
+  stage: build
+  script:
+    - webpack -p --config ./webpack.production.config.js
+
 test:
   stage: test
   script:
@@ -17,6 +22,7 @@ pages:
   stage: deploy
   script:
   - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
+  - webpack
   - jekyll build -d public
   artifacts:
     paths:
