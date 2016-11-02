@@ -7,8 +7,6 @@ nav-menu: yes
 tile: yes
 ---
 
-# Get Involved
-
 We can change the future of America, but we need your help. Here are some ways to get started:
 
 *  **[Volunteer - The Political Revolution](https://polrevvols.herokuapp.com)**
