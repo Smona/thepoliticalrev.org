@@ -28,8 +28,6 @@ test:
 
 pages:
   image: ruby:2.3
-  services:
-    -
   stage: deploy
   script:
   - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
