@@ -25,7 +25,6 @@ pages:
   stage: deploy
   script:
   - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
-  - webpack
   - jekyll build -d public
   artifacts:
     paths:
