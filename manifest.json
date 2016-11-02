@@ -1,5 +1,6 @@
 {
-	"name": "Political Revolution",
+	"name": "The Political Revolution",
+	"short_name": "TPR",
 	"icons": [
 		{
 			"src": "\/android-chrome-192x192.png",
@@ -13,5 +14,6 @@
 		}
 	],
 	"theme_color": "#04243e",
+	"background_color": "#04243e",
 	"display": "standalone"
 }
