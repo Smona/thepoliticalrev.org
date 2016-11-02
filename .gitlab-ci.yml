@@ -33,7 +33,7 @@ pages:
   image: ruby:2.3
   stage: deploy
   script:
-  - ls a
+  - ls
   - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
   - jekyll build -d public
   dependencies:
