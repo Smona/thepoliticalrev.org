@@ -9,8 +9,7 @@ bundlejs:
       - node_modules/
   script:
     - npm install --silent
-    - npm build
-    - ls -R assets
+    - npm run-script build
   artifacts:
     paths:
       - assets/js
@@ -34,7 +33,6 @@ pages:
   image: ruby:2.3
   stage: deploy
   script:
-  - ls -R
   - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
   - jekyll build -d public
   dependencies:
