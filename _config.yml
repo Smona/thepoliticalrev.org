@@ -51,6 +51,11 @@ compress_html:
   clippings: all
   comments:  ["<!-- ", " -->"]
   endings:   all
+exclude:
+  - webpack.config.js
+  - webpack.production.config.js
+  - package.json
+  - README.md
 
 # Defaults
 defaults:
