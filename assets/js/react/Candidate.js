@@ -23,18 +23,18 @@ class Candidate extends React.Component {
 
 		return (
 			<a href="#" onClick={this.toggleExpand.bind(this)}><div className="candidate" style={{backgroundImage: this.getPicture(me.Link_link)}}>
-				{this.state.expanded ? (
-					<section>
+					{this.state.expanded ? null : (
+						<header>
+ 							<h3>{name}</h3> <span>{me.State}</span>
+ 						</header>
+					)}
+
+					<section style={{transform: (this.state.expanded ? 'scaleY(1)' : 'scaleY(0)')}}>
 						<h3>{name}</h3>
 						<span>{me.State}</span>
 						{me.Region ? (<span>{me.Region}</span>) : null}
 						<span>{me.Position}</span>
 					</section>
-				) : (
-					<header>
-						<h3>{name}</h3> <span>{me.State}</span>
-					</header>
-				)}
 			</div></a>
 		);
 	}
