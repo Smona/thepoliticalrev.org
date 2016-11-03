@@ -43,6 +43,8 @@
 				padding: 4px 1em
 				width: 100%
 				transition: background 0.25s ease
+				opacity: 1
+				transition: opacity 0.25s ease-out
 				h3
 					display: inline
 					word-break: keep-all
@@ -57,7 +59,8 @@
 				bottom: 0
 				overflow: hidden
 				height: $height-candidate
-				transition: transform 0.25s ease-out
+				opacity: 0
+				transition: opacity 0.25s ease-out
 				span
 					display: block
 
