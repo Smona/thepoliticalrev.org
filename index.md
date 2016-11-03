@@ -2,7 +2,7 @@
 layout: home
 landing-title: <em>Join The Revolution</em>
 title: The Political Revolution
-description:
+description: {{ site.description }}
 image: /assets/images/background-polrev-compressed.png
 ---
 
