@@ -1,7 +1,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>{% if page.title != '' %}{{ page.title }}{% else %}{{ site.title-bold }}{% endif %}</title>
-	{% seo %}
+	{% seo title=false %}
 	{% feed_meta %}
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->

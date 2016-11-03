@@ -2,7 +2,7 @@
 layout: page
 title: Get Involved
 description: Want to join the fight? Find out how.
-image: volunteers.jpg
+image: assets/images/volunteers.jpg
 nav-menu: yes
 tile: yes
 ---

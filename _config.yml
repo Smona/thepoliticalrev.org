@@ -9,10 +9,11 @@
 title-bold: The Political Revolution
 title-normal: Progressives for the People
 email: info@thepoliticalrev.org
-description: "We are a volunteer-run organization working to get candidates inspired by the Bernie Sanders platform into office. Sign up below to join the Revolution:"
+description: "The Political Revolution believes we can change the future of America, but we need your help."
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://political-revolution.gitlab.io" # the base hostname & protocol for your site
+url: "https://www.thepoliticalrev.org" # the base hostname & protocol for your site
 author:
+  twitter: "@OurPoliticalRev"
 street_address:
 city:
 state:
@@ -68,11 +69,11 @@ defaults:
 
 # Plugin: jekyll-seo-tag
 twitter:
-  username:
+  username: "@OurPoliticalRev"
 # Add one or more of the following
 facebook:
   app_id:
   publisher:
   admins:
-logo:
+logo: "assets/images/button.png"
 google_site_verification:

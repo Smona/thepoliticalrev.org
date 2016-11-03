@@ -35,7 +35,7 @@ class Candidate extends React.Component {
 						<span>{me.State}</span>
 						{me.Region ? (<span>{me.Region}</span>) : null}
 						<span>{me.Position}</span>
-						<a href={me.Link_link} onClick={this.followLink.bind(this)}><i className="fa fa-info-circle button-icon" style={{fontSize: '3em'}}></i></a>
+						<a href={me.Link_link} onClick={this.followLink.bind(this)} target="_blank"><i className="fa fa-info-circle button-icon" style={{fontSize: '3em'}}></i></a>
 					</section>
 			</div></a>
 		);

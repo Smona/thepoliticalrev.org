@@ -2,7 +2,7 @@
 layout: page
 title: Voter Resources
 description: Voting can seem complicated, but it's the most impactful thing you can do. These resources make it as easy as possible to cast an informed vote.
-image: american-flag.jpg
+image: assets/images/american-flag.jpg
 nav-menu: yes
 tile: yes
 ---

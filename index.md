@@ -2,7 +2,7 @@
 layout: home
 landing-title: <em>Join The Revolution</em>
 description:
-image:
+image: assets/images/banner.png
 ---
 
 <!-- Banner -->

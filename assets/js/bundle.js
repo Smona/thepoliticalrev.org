@@ -33298,7 +33298,7 @@
 							),
 							_react2.default.createElement(
 								'a',
-								{ href: me.Link_link, onClick: this.followLink.bind(this) },
+								{ href: me.Link_link, onClick: this.followLink.bind(this), target: '_blank' },
 								_react2.default.createElement('i', { className: 'fa fa-info-circle button-icon', style: { fontSize: '3em' } })
 							)
 						)
