@@ -9,8 +9,8 @@
 title-bold: The Political Revolution
 title-normal: Progressives for the People
 email: info@thepoliticalrev.org
-description: "The Political Revolution believes we can change the future of America, but we need your help."
-baseurl: "/" # the subpath of your site, e.g. /blog
+description: "We can change the future of America, but we need your help."
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.thepoliticalrev.org" # the base hostname & protocol for your site
 author:
   twitter: "@OurPoliticalRev"

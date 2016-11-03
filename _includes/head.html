@@ -1,11 +1,11 @@
 <head>
 	<meta charset="utf-8" />
-	<title>{% if page.title != '' %}{{ page.title }}{% else %}{{ site.title-bold }}{% endif %}</title>
-	{% seo title=false %}
+	<!-- <title>{% if page.title != '' %}{{ page.title }}{% else %}{{ site.title-bold }}{% endif %}</title> -->
+	{% seo %}
 	{% feed_meta %}
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

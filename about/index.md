@@ -2,7 +2,7 @@
 layout: page
 title: About Us
 description: Learn about The Revolution
-image: assets/images/banner.jpg
+image: /assets/images/banner.jpg
 nav-menu: yes
 tile: yes
 ---

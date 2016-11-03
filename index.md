@@ -1,8 +1,9 @@
 ---
 layout: home
 landing-title: <em>Join The Revolution</em>
+title: The Political Revolution
 description:
-image: assets/images/banner.png
+image: /assets/images/background-polrev-compressed.png
 ---
 
 <!-- Banner -->
