@@ -63,11 +63,15 @@
 				transition: opacity 0.25s ease-out
 				span
 					display: block
+				>*
+					color:  _palette(bg)
+				.button-icon
+					position: absolute
+					bottom: 10px
+					right: 10px
 
 			&:hover
 				header
 					background: _palette(bg-alt)
 				// transform: scale(1.01)
 				// box-shadow: 0 2px 5px rgba(0, 0, 0, .2)
-			*
-				color:  _palette(bg)
