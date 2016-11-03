@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import CandidateList from './CandidateList';
 import PapaParse from 'papaparse';
 import $ from 'jquery';
+import CandidateList from './CandidateList';
 
-require('./candidate-list.sass');
+const styles = require('./candidate-list.sass');
 
 // var spreadsheetID = '1rIiEAMjfPTa5j4ttsehoFi939I9FfnqyE5dKy802474';
 // var sheetID = '163578027';
