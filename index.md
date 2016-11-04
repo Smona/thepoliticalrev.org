@@ -13,7 +13,7 @@ image: /assets/images/background-polrev-compressed.png
 			<h1>{{ page.landing-title }}</h1>
 		</header>
 		<div class="content">
-			<p>Change will only take place once every one of us gets involved in the political process. Sign up for our mailing list now to join the revolution!</p>
+			<p>Change can only take place when people get involved in the political process. Sign up now and join the revolution!</p>
 			<form id="email-signup" autocomplete="on" method="post" action="https://tinyletter.com/ThePoliticalRevolution">
 				<label for="email">Email</label>
 				<input type="email" name="email" id="email" placeholder="sen.sanders@gmail.com" autofocus/>
