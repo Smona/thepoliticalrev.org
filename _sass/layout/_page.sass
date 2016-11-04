@@ -14,6 +14,18 @@ $letterhead-size: 3em
 		position: relative
 		padding-top: $letterhead-size * 1.6
 
+.image-grid
+	display: flex
+	flex-flow: row wrap
+	>*
+		border-bottom: none
+		flex-basis: 250px
+		flex-grow: 1
+		margin: 0 4px
+		img
+			width: 100%
+
+
 .page-button
 	background-color: _palette(bg)
 	color: _palette(fg-bold) !important

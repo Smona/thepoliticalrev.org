@@ -54,3 +54,10 @@
 	@return url("data:image/svg+xml;charset=utf8,#{$svg}");
 
 }
+
+@mixin image-grid($rows) {
+	display: inline;
+	box-sizing: border-box;
+	// width: 95% / $rows;
+	margin: 3px
+}
