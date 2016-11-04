@@ -82,7 +82,7 @@
 				max-width: 56em;
 				background: _palette(fg);
 				color: _palette(bg);
-				box-shadow: 0 0 15px fade-out(_palette(accent2), .2);
+				box-shadow: 0 0 10px fade-out(_palette(accent2), .4);
 
 				> * {
 					margin-left: 1.5em;
@@ -170,7 +170,7 @@
 
 			&.major {
 				height: 100vw;
-				min-height: 30em;
+				min-height: 31em;
 				max-height: none;
 			}
 		}
@@ -183,9 +183,9 @@
 				opacity: 0;
 			}
 			> div.inner {
-				background: _palette(bg);
+				// background: _palette(bg);
 				// margin: 0;
-				padding: 0 2em 0 !important;
+				padding: 0 1em 0 !important;
 				width: 100% !important;
 				left: 0;
 				.content {
@@ -199,7 +199,7 @@
 
 			&.major {
 				@include padding(6em, 0, (2em, 0, 0, 0));
-				height: 35em;
+				height: 32em;
 			}
 		}
 	}
