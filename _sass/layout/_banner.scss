@@ -55,8 +55,9 @@
 			padding: 0 !important;
 			position: absolute;
 			bottom: 0;
-			left: 5%;
+			left: 3em;
 			z-index: 2;
+			max-width: 100% !important;
 
 			.image {
 				display: none;
@@ -77,7 +78,11 @@
 			.content {
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
-				margin: 0 0 _size(element-margin) 0;
+				margin: 0 auto _size(element-margin);
+				max-width: 56em;
+				background: _palette(fg);
+				color: _palette(bg);
+				box-shadow: 0 0 15px fade-out(_palette(accent2), .2);
 
 				> * {
 					margin-left: 1.5em;
@@ -89,11 +94,12 @@
 				}
 
 				p {
-					width: 66%;
-					font-size: 0.7em;
+					width: 100%;
+					font-size: 1em;
 					font-weight: _font(weight-bold);
-					letter-spacing: _font(letter-spacing-alt);
+					// letter-spacing: _font(letter-spacing-alt);
 					text-transform: uppercase;
+					padding: .5em 1.5em;
 					// text-shadow: 1px 1px 0px fade-out(_palette(bg), .3);
 				}
 			}
@@ -148,6 +154,7 @@
 			}
 
 			> .inner {
+				left: 1.5em;
 				.content {
 					display: block;
 					p {
@@ -156,7 +163,7 @@
 
 					> * {
 						margin-left: 0;
-						margin-bottom: _size(element-margin);
+						// margin-bottom: _size(element-margin);
 					}
 				}
 			}
@@ -178,7 +185,7 @@
 			> div.inner {
 				background: _palette(bg);
 				// margin: 0;
-				padding: 1em 2em 0 !important;
+				padding: 0 2em 0 !important;
 				width: 100% !important;
 				left: 0;
 				.content {

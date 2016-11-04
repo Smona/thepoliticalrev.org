@@ -10,12 +10,21 @@
 		// width: 100%
 		// min-width: 5em
 		// max-width: 18em
-		flex-basis: 12em
+		flex-basis: 15em
 		flex-grow: 3
+		height: 2.8em
 		margin-right: 0
-		background: fade-in(_palette(border-bg), .2)
+		background: _palette(accent1)
+		color: _palette(fg)
+		&:focus
+			background-color: darken(_palette(accent1), 10%)
+
 	button
 		// width: 100%
 		flex-basis: 8em
 		flex-grow: 1
 		margin-left: 0
+		box-shadow: none
+		// height: 3em
+		&:focus, &:hover
+			background-color: darken(_palette(accent1), 10%)

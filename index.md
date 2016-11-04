@@ -13,11 +13,11 @@ image: /assets/images/background-polrev-compressed.png
 			<h1>{{ page.landing-title }}</h1>
 		</header>
 		<div class="content">
-			<p style="text-transform: uppercase;">We are a volunteer-run organization working to get candidates inspired by the Bernie Sanders platform into office. Sign up for our mailing list to join the Revolution:</p>
+			<p>Change will only take place once every one of us gets involved in the political process. Sign up for our mailing list now to join the revolution!</p>
 			<form id="email-signup" autocomplete="on" method="post" action="https://tinyletter.com/ThePoliticalRevolution">
 				<label for="email">Email</label>
-				<input type="email" name="email" id="email" placeholder="johndoe@gmail.com"/>
-				<button type="submit">Join</button>
+				<input type="email" name="email" id="email" placeholder="sen.sanders@gmail.com" autofocus/>
+				<button type="submit" class="important">Join Us</button>
 			</form>
 			<!-- <ul class="actions">
 				<li><a href="#one" class="button next scrolly">More</a></li>
