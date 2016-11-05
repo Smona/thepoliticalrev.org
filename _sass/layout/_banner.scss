@@ -82,8 +82,8 @@
 				max-width: 56em;
 				background: _palette(fg);
 				color: _palette(bg);
-				box-shadow: 0 0 10px fade-out(_palette(accent2), .4);
-
+				box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+				// border: 2px solid _palette(accent3);
 				> * {
 					margin-left: 1.5em;
 					margin-bottom: 0;
