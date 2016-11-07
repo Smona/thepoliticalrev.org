@@ -20,7 +20,7 @@ layout: compress
     {% endif %}
 
     <main class="page responsive-text">
-      <h1>{{ page.title }}</h1>
+      <h1 id="responsive_headline">{{ page.title }}</h1>
       <section class="text-wrapper">
         <div class="letterhead">
           <i class="fa fa-star star"></i>
@@ -34,7 +34,12 @@ layout: compress
         {{ content }}
       </section>
     </main>
+    {{ page.after }}
     {% include footer.html %}
+    <script src="{{ site.baseurl }}/assets/js/jquery.fittext.js"></script>
+    <script>
+      $(document).ready(function () {$("#responsive_headline").fitText(0.7, { minFontSize: '20px', maxFontSize: '100px' });});
+    </script>
 
 </body>
 

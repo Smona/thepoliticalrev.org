@@ -191,8 +191,8 @@
 		padding: 1em 2em;
 	}
 	.responsive-text {
-		font-size: calc(14.72px + .5em);
-		@include breakpoint(small) {
+		font-size: calc(14px + .5em);
+		@media all and (max-width: 700px) {
 			font-size: calc(.5em + 2vw);
 		}
 	}

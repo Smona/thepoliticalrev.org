@@ -66,6 +66,7 @@ defaults:
     values:
       title: ""
       banner: "no"
+      layout: default
 
 # Plugin: jekyll-seo-tag
 twitter:
