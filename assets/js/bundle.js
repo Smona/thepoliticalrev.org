@@ -33171,6 +33171,12 @@
 					{ className: 'candidate-list' },
 					candidates.data.filter(function (candidate) {
 						return candidate['Candidate Name'];
+					}).sort(function (a, b) {
+						var testArray = [a.State, b.State].sort();
+						if (testArray.indexOf(a.State) === 1) {
+							return 1;
+						}
+						return -1;
 					}).map(function (candidate) {
 						return _react2.default.createElement(
 							'li',

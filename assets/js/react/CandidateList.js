@@ -8,7 +8,14 @@ export default class CandidateList extends React.Component {
 			<ul className="candidate-list">
 				{candidates.data
 					.filter(candidate => candidate['Candidate Name'])
-						.map(candidate => <li key={candidate['Candidate Name']}><Candidate me={candidate} /></li>)
+						.sort(function (a, b) {
+							let testArray = [a.State, b.State].sort();
+							if (testArray.indexOf(a.State) === 1) {
+								return 1;
+							}
+							return -1;
+						})
+							.map(candidate => <li key={candidate['Candidate Name']}><Candidate me={candidate} /></li>)
 				}
 			</ul>
 		);
