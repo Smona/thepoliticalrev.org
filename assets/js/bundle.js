@@ -33251,13 +33251,24 @@
 			value: function render() {
 				var me = this.props.me;
 				var name = me['Candidate Name'];
+				var image, website;
+				if (me['Photo URL']) {
+					image = 'url(' + me['Photo URL'] + ')';
+				} else {
+					image = this.getPicture(me.Link_link);
+				}
+				if (me.Website) {
+					website = me.Website;
+				} else {
+					website = me.Link_link;
+				}
 
 				return _react2.default.createElement(
 					'a',
 					{ href: '#', onClick: this.toggleExpand.bind(this) },
 					_react2.default.createElement(
 						'div',
-						{ className: 'candidate', style: { backgroundImage: this.getPicture(me.Link_link) } },
+						{ className: 'candidate', style: { backgroundImage: image } },
 						_react2.default.createElement(
 							'header',
 							{ style: { opacity: this.state.expanded ? '0' : '1' } },
@@ -33281,26 +33292,35 @@
 								null,
 								name
 							),
-							_react2.default.createElement(
+							me.District ? _react2.default.createElement(
 								'span',
 								null,
-								me.State
-							),
-							me.Region ? _react2.default.createElement(
-								'span',
-								null,
-								me.Region
+								me.District
 							) : null,
 							_react2.default.createElement(
 								'span',
 								null,
 								me.Position
 							),
-							_react2.default.createElement(
-								'a',
-								{ href: me.Link_link, onClick: this.followLink.bind(this), target: '_blank' },
-								_react2.default.createElement('i', { className: 'fa fa-info-circle button-icon', style: { fontSize: '3em' } })
-							)
+							this.state.expanded ? _react2.default.createElement(
+								'div',
+								null,
+								me['Facebook URL'] && _react2.default.createElement(
+									'a',
+									{ href: me['Facebook URL'], className: 'button-icon', onClick: this.followLink.bind(this), target: '_blank' },
+									_react2.default.createElement('i', { className: 'fa fa-facebook' })
+								),
+								me['Twitter Url'] && _react2.default.createElement(
+									'a',
+									{ href: me['Twitter Url'], className: 'button-icon', onClick: this.followLink.bind(this), target: '_blank' },
+									_react2.default.createElement('i', { className: 'fa fa-twitter' })
+								),
+								_react2.default.createElement(
+									'a',
+									{ href: website, className: 'button-icon', onClick: this.followLink.bind(this), target: '_blank' },
+									_react2.default.createElement('i', { className: 'fa fa-info-circle' })
+								)
+							) : null
 						)
 					)
 				);
@@ -33347,7 +33367,7 @@
 
 
 	// module
-	exports.push([module.id, ".FilterableCandidateList {\n  margin: 1em; }\n  .FilterableCandidateList select {\n    max-width: 18em; }\n  .FilterableCandidateList .candidate-list {\n    display: flex;\n    flex-flow: row wrap;\n    justify-content: center;\n    list-style: none;\n    font-size: 1rem;\n    padding: 0;\n    max-width: 1249px;\n    margin: 0 auto; }\n    .FilterableCandidateList .candidate-list > li {\n      margin: 3px;\n      padding: 0;\n      flex-grow: 1;\n      flex-basis: 250px;\n      max-width: 400px;\n      display: block; }\n    .FilterableCandidateList .candidate-list .candidate {\n      background: #04243E;\n      background-repeat: no-repeat;\n      background-size: cover;\n      background-position: center;\n      position: relative;\n      height: 250px;\n      width: 100%;\n      min-width: 250px;\n      transition: transform 0.25s ease, box-shadow 0.25s ease; }\n      .FilterableCandidateList .candidate-list .candidate header {\n        position: absolute;\n        bottom: 0;\n        left: 0;\n        background: rgba(4, 36, 62, 0.9);\n        padding: 4px 1em;\n        width: 100%;\n        transition: background 0.25s ease;\n        opacity: 1;\n        transition: opacity 0.25s ease-out; }\n        .FilterableCandidateList .candidate-list .candidate header h3 {\n          display: inline;\n          word-break: keep-all;\n          margin: 1em 0; }\n        .FilterableCandidateList .candidate-list .candidate header * {\n          color: #f7f7f7; }\n      .FilterableCandidateList .candidate-list .candidate section {\n        background: rgba(247, 247, 247, 0.9);\n        padding: 1em;\n        width: 100%;\n        position: absolute;\n        bottom: 0;\n        overflow: hidden;\n        height: 250px;\n        opacity: 0;\n        transition: opacity 0.25s ease-out; }\n        .FilterableCandidateList .candidate-list .candidate section span {\n          display: block; }\n        .FilterableCandidateList .candidate-list .candidate section > * {\n          color: #052a48; }\n        .FilterableCandidateList .candidate-list .candidate section .button-icon {\n          position: absolute;\n          bottom: 10px;\n          right: 10px; }\n      .FilterableCandidateList .candidate-list .candidate:hover header {\n        background: #04243E; }\n", ""]);
+	exports.push([module.id, ".FilterableCandidateList {\n  margin: 1em; }\n  .FilterableCandidateList select {\n    max-width: 18em; }\n  .FilterableCandidateList .candidate-list {\n    display: flex;\n    flex-flow: row wrap;\n    justify-content: center;\n    list-style: none;\n    font-size: 1rem;\n    padding: 0;\n    max-width: 1249px;\n    margin: 0 auto; }\n    .FilterableCandidateList .candidate-list > li {\n      margin: 3px;\n      padding: 0;\n      flex-grow: 1;\n      flex-basis: 250px;\n      max-width: 400px;\n      display: block; }\n    .FilterableCandidateList .candidate-list .candidate {\n      background: #04243E;\n      background-repeat: no-repeat;\n      background-size: cover;\n      background-position: center;\n      position: relative;\n      height: 250px;\n      width: 100%;\n      min-width: 250px;\n      transition: transform 0.25s ease, box-shadow 0.25s ease; }\n      .FilterableCandidateList .candidate-list .candidate header {\n        position: absolute;\n        bottom: 0;\n        left: 0;\n        background: rgba(4, 36, 62, 0.9);\n        padding: 4px 1em;\n        width: 100%;\n        transition: background 0.25s ease;\n        opacity: 1;\n        transition: opacity 0.25s ease-out; }\n        .FilterableCandidateList .candidate-list .candidate header h3 {\n          display: inline;\n          word-break: keep-all;\n          margin: 1em 0; }\n        .FilterableCandidateList .candidate-list .candidate header * {\n          color: #f7f7f7; }\n      .FilterableCandidateList .candidate-list .candidate section {\n        background: rgba(247, 247, 247, 0.9);\n        padding: 3em 1em 1em;\n        text-align: center;\n        width: 100%;\n        position: absolute;\n        bottom: 0;\n        overflow: hidden;\n        height: 250px;\n        opacity: 0;\n        transition: opacity 0.25s ease-out; }\n        .FilterableCandidateList .candidate-list .candidate section span {\n          display: block; }\n        .FilterableCandidateList .candidate-list .candidate section > * {\n          color: #052a48; }\n        .FilterableCandidateList .candidate-list .candidate section .button-icon {\n          font-size: 2em;\n          margin: 0 .5em; }\n      .FilterableCandidateList .candidate-list .candidate:hover header {\n        background: #04243E; }\n", ""]);
 
 	// exports
 

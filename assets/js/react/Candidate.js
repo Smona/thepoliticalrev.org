@@ -23,20 +23,36 @@ class Candidate extends React.Component {
 	render() {
 		var me = this.props.me;
 		var name = me['Candidate Name'];
+		var image, website;
+		if (me['Photo URL']) {
+			image = 'url(' + me['Photo URL'] + ')';
+		} else {
+			image = this.getPicture(me.Link_link);
+		}
+		if (me.Website) {
+			website = me.Website;
+		} else {
+			website = me.Link_link;
+		}
 
 		return (
-			<a href="#" onClick={this.toggleExpand.bind(this)}><div className="candidate" style={{backgroundImage: this.getPicture(me.Link_link)}}>
+			<a href="#" onClick={this.toggleExpand.bind(this)}><div className="candidate" style={{backgroundImage: image}}>
 					<header style={{opacity: (this.state.expanded ? '0' : '1')}}>
 						<h3>{name}</h3> <span>{me.State}</span>
 					</header>
 
 					<section style={{opacity: (this.state.expanded ? '1' : '0')}}>
 						<h3>{name}</h3>
-						<span>{me.State}</span>
-						{me.Region ? (<span>{me.Region}</span>) : null}
+						{me.District ? (<span>{me.District}</span>) : null}
 						<span>{me.Position}</span>
-						<a href={me.Link_link} onClick={this.followLink.bind(this)} target="_blank"><i className="fa fa-info-circle button-icon" style={{fontSize: '3em'}}></i></a>
-					</section>
+						{this.state.expanded ? (
+							<div>
+								{me['Facebook URL'] && <a href={me['Facebook URL']} className="button-icon" onClick={this.followLink.bind(this)} target="_blank"><i className="fa fa-facebook"></i></a>}
+								{me['Twitter Url'] && <a href={me['Twitter Url']} className="button-icon" onClick={this.followLink.bind(this)} target="_blank"><i className="fa fa-twitter"></i></a>}
+								<a href={website} className="button-icon" onClick={this.followLink.bind(this)} target="_blank"><i className="fa fa-info-circle"></i></a>
+							</div>
+						) : null}
+				</section>
 			</div></a>
 		);
 	}
