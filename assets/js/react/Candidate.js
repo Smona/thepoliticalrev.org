@@ -9,7 +9,7 @@ class Candidate extends React.Component {
 	}
 	getPicture(candidateLink) {
 		let list = candidateLink.split('/');
-		return 'url(https://ourrevolution.com/img/candidates/profile/' + list[list.length - 1] + '.jpg)';
+		return 'url(https://ourrevolution.com/static/dist/img/candidates/profile/' + list[list.length - 1] + '.jpg)';
 	}
 	toggleExpand(e) {
 		e.preventDefault();

@@ -33235,7 +33235,7 @@
 			key: 'getPicture',
 			value: function getPicture(candidateLink) {
 				var list = candidateLink.split('/');
-				return 'url(https://ourrevolution.com/img/candidates/profile/' + list[list.length - 1] + '.jpg)';
+				return 'url(https://ourrevolution.com/static/dist/img/candidates/profile/' + list[list.length - 1] + '.jpg)';
 			}
 		}, {
 			key: 'toggleExpand',
