@@ -61,6 +61,6 @@ namecheap:
   dependencies:
     - jekyll
   script:
-    - "sftp -P 21098 -i id_gitlab.txt thepasgk@server221.web-hosting.com:public_html < deploy_sftp_input.txt"
+    - 
   only:
   - master

@@ -57,6 +57,8 @@ exclude:
   - webpack.production.config.js
   - package.json
   - README.md
+  - id_gitlab.txt
+  - deploy_sftp_input.sh
 
 # Defaults
 defaults:
