@@ -1,0 +1,3 @@
+p4$$w0rd
+put -r public
+bye
