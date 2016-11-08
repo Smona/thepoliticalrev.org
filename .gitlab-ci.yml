@@ -61,6 +61,6 @@ namecheap:
   dependencies:
     - jekyll
   script:
-    - "sftp -P 21098 -i ./.id_mason.txt thepasgk@server221.web-hosting.com:public_html <<< $'put -r public'"
+    - "sftp -P 21098 -i id_mason.txt thepasgk@server221.web-hosting.com:public_html <<< $'put -r public'"
   only:
   - master
