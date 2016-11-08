@@ -61,6 +61,6 @@ namecheap:
   dependencies:
     - jekyll
   script:
-    - 
+    - "./deploy_sftp_input.sh"
   only:
   - master
