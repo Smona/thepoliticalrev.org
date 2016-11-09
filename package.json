@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -p --config ./webpack.production.config.js"
+    "build": "webpack -p --config ./webpack.production.config.js",
+    "deploy": "webpack -p --config ./webpack.production.config.js && gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed && jekyll build -d public_html && chmod 400 ./.id_gitlab.txt && ./clear-server.sh && ./deploy.sh"
   },
   "repository": {
     "type": "git",

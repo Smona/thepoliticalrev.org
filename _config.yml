@@ -58,7 +58,9 @@ exclude:
   - package.json
   - README.md
   - id_gitlab.txt
-  - deploy_sftp_input.sh
+  - deploy.sh
+  - clear-server.sh
+  - node_modules/
 
 # Defaults
 defaults:

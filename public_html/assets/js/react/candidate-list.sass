@@ -1,0 +1,81 @@
+@import "_sass/libs/vars"
+@import "_sass/libs/functions"
+@import "_sass/libs/_skel.scss"
+
+.FilterableCandidateList
+	margin: 1em
+	select
+		max-width: 18em
+	.candidate-list
+		display: flex
+		flex-flow: row wrap
+		justify-content: center
+		list-style: none
+		font-size: 1rem
+		padding: 0
+		max-width: 1249px
+		margin: 0 auto
+		>li
+			margin: 3px
+			padding: 0
+			flex-grow: 1
+			flex-basis: 250px
+			max-width: 400px
+			display: block
+			@media all and (max-width: 568px)
+				//  max-width: 100%
+
+		.candidate
+			$height-candidate: 250px
+			background: _palette(bg-alt)
+			background-repeat: no-repeat
+			background-size: cover
+			background-position: center
+			position: relative
+			height: $height-candidate
+			width: 100%
+			min-width: 250px
+			transition: transform 0.25s ease, box-shadow 0.25s ease
+			header
+				position: absolute
+				bottom: 0
+				left: 0
+				background: fade-out(_palette(bg-alt), .1)
+				padding: 4px 1em
+				width: 100%
+				transition: background 0.25s ease
+				opacity: 1
+				transition: opacity 0.25s ease-out
+				h3
+					display: inline
+					word-break: keep-all
+					margin: 1em 0
+				*
+					color: _palette(fg)
+			section
+				background: fade-out(_palette(fg), .1)
+				padding: 3em 1em 1em
+				text-align: center
+				width: 100%
+				position: absolute
+				bottom: 0
+				overflow: hidden
+				height: $height-candidate
+				opacity: 0
+				transition: opacity 0.25s ease-out
+				span
+					display: block
+				>*
+					color:  _palette(bg)
+				.button-icon
+					font-size: 2em
+					margin: 0 .5em
+					// position: absolute
+					// bottom: 10px
+					// right: 10px
+
+			&:hover
+				header
+					background: _palette(bg-alt)
+				// transform: scale(1.01)
+				// box-shadow: 0 2px 5px rgba(0, 0, 0, .2)
