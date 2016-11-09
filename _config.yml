@@ -83,6 +83,13 @@ prose:
           element: "text"
           label: "Author"
           type: "text"
+      - name: "author-googleplus"
+        field:
+          element: "text"
+          label: "Author Google+ Accont Link"
+          help: "Used for google author attribution"
+          type: "text"
+          placeholder: "https://plus.google.com/<your-username>"
 
 # Defaults
 defaults:
