@@ -94,7 +94,7 @@ prose:
         field:
           element: "text"
           label: "Post Image"
-          help: "Add an image from the 'Insert Image' button above the editor. Then, copy and paste the image link (without "{{ base.url }}") to this textbox. Finally, make sure to remove the image link from the post body."
+          help: "Add an image from the 'Insert Image' button above the editor. Then, copy and paste the image link (without the "base.url" part) to this textbox. Finally, make sure to remove the image link from the post body."
           type: "text"
           placeholder: "/assets/images/posts/<filename>"
 
