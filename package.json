@@ -1,0 +1,40 @@
+{
+  "name": "political-revolution.gitlab.io",
+  "version": "0.2.0",
+  "description": "Website for the Political Revolution movement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --config ./webpack.production.config.js",
+    "deploy": "webpack -p --config ./webpack.production.config.js && gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed && jekyll build -d public_html && chmod 400 ./.id_gitlab.txt && ./clear-server.sh && ./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/political-revolution/political-revolution.gitlab.io.git"
+  },
+  "author": "Mason Bourgeois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/political-revolution/political-revolution.gitlab.io/issues"
+  },
+  "homepage": "https://gitlab.com/political-revolution/political-revolution.gitlab.io#README",
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.13.3",
+    "xo": "^0.17.0"
+  },
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "jquery": "^3.1.1",
+    "node-sass": "^3.11.0",
+    "papaparse": "^4.1.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
+  }
+}

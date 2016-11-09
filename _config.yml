@@ -1,0 +1,84 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title-bold: The Political Revolution
+title-normal: Progressives for the People
+email: info@thepoliticalrev.org
+description: "We can change the future of America, but we need your help."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.thepoliticalrev.org" # the base hostname & protocol for your site
+author:
+  twitter: "@OurPoliticalRev"
+street_address:
+city:
+state:
+zip_code:
+country:
+phone:
+
+# Plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 8
+
+# Social settings
+medium_url: https://medium.com/@OurPoliticalRev
+facebook_url: https://www.facebook.com/ThePoliticalRev/
+github_url:
+gitlab_url: https://gitlab.com/groups/political-revolution
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url: https://polrevvols.herokuapp.com/
+twitter_url: https://twitter.com/OurPoliticalRev
+subreddit_url: https://reddit.com/r/Political_Revolution
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+compress_html:
+  clippings: all
+  comments:  ["<!-- ", " -->"]
+  endings:   all
+exclude:
+  - webpack.config.js
+  - webpack.production.config.js
+  - package.json
+  - README.md
+  - id_gitlab.txt
+  - deploy.sh
+  - clear-server.sh
+  - node_modules/
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      title: ""
+      banner: "no"
+      layout: default
+
+# Plugin: jekyll-seo-tag
+twitter:
+  username: "@OurPoliticalRev"
+# Add one or more of the following
+facebook:
+  app_id: 206987373045662
+  publisher:
+  admins:
+logo: "assets/images/button.png"
+google_site_verification:
