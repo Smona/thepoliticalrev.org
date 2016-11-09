@@ -69,7 +69,7 @@ namecheap:
     - eval $(ssh-agent -s)
 
     # Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
-    - ssh-add <<done\r echo "$SSH_PRIVATE_KEY" \rp4$$w0rd\rdone\r
+    - ssh-add <<done\necho "$SSH_PRIVATE_KEY"\np4$$w0rd\ndone\n
 
     # For Docker builds disable host key checking. Be aware that by adding that
     # you are suspectible to man-in-the-middle attacks.
