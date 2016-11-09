@@ -90,6 +90,13 @@ prose:
           help: "Used for google author attribution"
           type: "text"
           placeholder: "https://plus.google.com/<your-username>"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Post Image"
+          help: "Add an image from the 'Insert Image' button above the editor. Then, copy and paste the image link to this textbox. Finally, make sure to remove the image link from the post body."
+          type: "text"
+          placeholder: "{{site.baseurl}}/assets/images/posts/<filename>"
 
 # Defaults
 defaults:
