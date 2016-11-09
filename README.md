@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![The Political Revolution](assets/images/Bumper.png "The Political Revolution")
 
 # Color Palette
