@@ -41,5 +41,6 @@ build/
 /_site/
 .sass-cache
 node_modules/
+/public_html/
 
 prepros.cfg

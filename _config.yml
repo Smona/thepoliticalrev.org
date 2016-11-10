@@ -66,8 +66,32 @@ exclude:
 prose:
   # rooturl: "_posts"
   ignore:
+    - _sass
+    - _includes
     - .travis.yml
     - .babelrc
+    - .gitignore
+    - .gitlab-ci.yaml
+    - android-chrome-192x192.png
+    - android-chrome-512x512.png
+    - apple-touch-icon.png
+    - browserconfig.xml
+    - ci-compile.sh
+    - ci-deploy.sh
+    - clear-server.sh
+    - deploy.sh
+    - deploy_key.enc
+    - favicon-16x16.png
+    - favicon-32x32.png
+    - favicon.ico
+    - favicons.zip
+    - id_rsa.enc
+    - manifest.json
+    - mstile-150x150.png
+    - safari-pinned-tab.svg
+    - webpack.config.js
+    - webpack.production.config.js
+
   siteurl: "https://politicalrev.github.io/thepoliticalrev.org/"
   media: "assets/images/posts"
   metadata:
