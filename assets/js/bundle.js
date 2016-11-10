@@ -82,8 +82,6 @@
 
 	var styles = __webpack_require__(176);
 
-	// var spreadsheetID = '1rIiEAMjfPTa5j4ttsehoFi939I9FfnqyE5dKy802474';
-	// var sheetID = '163578027';
 	var candidates = {};
 	_jquery2.default.get({
 		url: '/data/Candidates2016.csv',
@@ -33135,6 +33133,8 @@
 		value: true
 	});
 
+	var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	var _react = __webpack_require__(1);
@@ -33169,15 +33169,22 @@
 				return _react2.default.createElement(
 					'ul',
 					{ className: 'candidate-list' },
-					candidates.data.filter(function (candidate) {
+					candidates.data
+					// Strip out empty/partial entries
+					.filter(function (candidate) {
 						return candidate['Candidate Name'];
-					}).sort(function (a, b) {
-						var testArray = [a.State, b.State].sort();
-						if (testArray.indexOf(a.State) === 1) {
+					})
+					// Sort by state
+					.sort(function (a, b) {
+						var _sort, _sort2;
+
+						if (_sort = [a.State, b.State].sort(), _sort2 = _slicedToArray(_sort, 2), a.State = _sort2[0], b.State = _sort2[1], _sort) {
 							return 1;
 						}
 						return -1;
-					}).map(function (candidate) {
+					})
+					// Spawn a card for each candidate
+					.map(function (candidate) {
 						return _react2.default.createElement(
 							'li',
 							{ key: candidate['Candidate Name'] },
@@ -33215,7 +33222,12 @@
 
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /*
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *   A Candidate Card that displays some data about a candidate and
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *   has an expanded state with additional info
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               *   Author: Smona  (mason.bourgeois@gmail.com)
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
 
 	var Candidate = function (_React$Component) {
 		_inherits(Candidate, _React$Component);
@@ -33230,6 +33242,8 @@
 			};
 			return _this;
 		}
+		// Backup function that pulls a Candidate Image from Our Revolution
+
 
 		_createClass(Candidate, [{
 			key: 'getPicture',
@@ -33247,6 +33261,8 @@
 					};
 				});
 			}
+			// Prevent link clicks from bubbling up to toggleExpand
+
 		}, {
 			key: 'followLink',
 			value: function followLink(e) {
@@ -33258,11 +33274,13 @@
 				var me = this.props.me;
 				var name = me['Candidate Name'];
 				var image, website;
+				// Use candidate image if in the data, fallback to Our Revolution
 				if (me['Photo URL']) {
 					image = 'url(' + me['Photo URL'] + ')';
 				} else {
 					image = this.getPicture(me.Link_link);
 				}
+				// Use candidate website if in the data, fallback to Our Revolution
 				if (me.Website) {
 					website = me.Website;
 				} else {
@@ -33308,6 +33326,7 @@
 								null,
 								me.Position
 							),
+							'// Social Links, Kill links when collapsed to prevent ghosty clicks',
 							this.state.expanded ? _react2.default.createElement(
 								'div',
 								null,

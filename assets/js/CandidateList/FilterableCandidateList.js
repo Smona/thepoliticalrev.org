@@ -6,8 +6,6 @@ import CandidateList from './CandidateList';
 
 const styles = require('./candidate-list.sass');
 
-// var spreadsheetID = '1rIiEAMjfPTa5j4ttsehoFi939I9FfnqyE5dKy802474';
-// var sheetID = '163578027';
 var candidates = {};
 $.get({
 	url: '/data/Candidates2016.csv',

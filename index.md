@@ -1,48 +1,18 @@
 ---
+# Home page. Content will be inserted below latest post titles.
+
 layout: home
 landing-title: <em>Join The Revolution</em>
 title: The Political Revolution
 description: {{ site.description }}
 image: /assets/images/background-polrev-compressed.png
+CTA: "Change can only take place when people get involved in the political process. Sign up now and join the revolution!"
 ---
 
-<!-- Banner -->
-<section id="banner" class="major" style="background-image: url({{ site.baseurl}}/assets/images/background-polrev-compressed.png);">
-	<div class="inner">
-		<header class="major">
-			<h1>{{ page.landing-title }}</h1>
-		</header>
-		<div class="content">
-			<p>Change can only take place when people get involved in the political process. Sign up now and join the revolution!</p>
-			<form id="email-signup" autocomplete="on" method="post" action="https://tinyletter.com/ThePoliticalRevolution">
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email" placeholder="sen.sanders@gmail.com" autofocus/>
-				<button type="submit" class="important">Join Us</button>
-			</form>
-			<!-- <ul class="actions">
-				<li><a href="#one" class="button next scrolly">More</a></li>
-			</ul> -->
-		</div>
-	</div>
-</section>
-
-<!-- Main -->
-<div id="main">
-
-<!-- One -->
-{% include tiles.html %}
-
-<!-- Two -->
-<section id="two">
-	<div class="inner">
-		<header class="major">
-			<h2>Let's do this</h2>
-		</header>
-		<p>With your help, we can build a better United States for everyone, not just the top one percent.</p>
-		<ul class="actions">
-			<li><a href="{{ site.baseurl }}fight" class="button next">Get Started</a></li>
-		</ul>
-	</div>
-</section>
-
-</div>
+<header class="major">
+	<h2>Let's do this</h2>
+</header>
+<p>With your help, we can build a better United States for everyone, not just the top one percent.</p>
+<ul class="actions">
+	<li><a href="{{ site.baseurl }}fight" class="button next">Get Started</a></li>
+</ul>

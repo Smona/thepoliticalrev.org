@@ -4,7 +4,7 @@ const webpack = require('webpack');
 var dir = path.join(__dirname, '/assets/js');
 
 module.exports = {
-	entry: dir + '/react/FilterableCandidateList.js',
+	entry: dir + '/CandidateList/FilterableCandidateList.js',
 	output: {
 		path: dir,
 		filename: 'bundle.js'

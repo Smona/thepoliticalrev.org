@@ -17,31 +17,35 @@ layout: compress
   {% include header.html %}
 
   <main class="responsive-text">
-    <div class="post-banner" {% if page.image %}style="background-image: url({{ site.baseurl }}{{ page.image }})"{% endif %}>
-  		<header class="major">
-  			<h1>{{ page.title }}</h1>
 
+    <div class="post-banner" {% if page.image %}style="background-image: url({{ site.baseurl }}{{ page.image }})"{% endif %}>
+
+      <header class="major">
+  			<h1>{{ page.title }}</h1>
         {% if page.author %}<span class="post-info">By {{ page.author }}</span>{% endif %}
         {% if page.date %}<span class="post-info date">{{ page.date | date_to_long_string }}</span>{% endif %}
   		</header>
+
     </div>
+
     <article class="text-wrapper">
 		    {{ content }}
+
         <hr>
+
+        <!-- Medium link enabled by default -->
         {% if page.medium == 'yes' %}
           <p>
             You can comment, follow, and read more from the Political Revolution on <a href="https://medium.com/@OurPoliticalRev">Medium</a>.
           </p><br>
         {% endif %}
+
         {% include social-share.html %}
     </article>
+    
   </main>
 
   {% include footer.html %}
-  <!-- <script src="{{ site.baseurl }}/assets/js/jquery.fittext.js"></script>
-  <script>
-    $(document).ready(function () {$("h1", "header.major").fitText(0.7, { minFontSize: '20px', maxFontSize: '100px' });});
-  </script> -->
 
 </body>
 
