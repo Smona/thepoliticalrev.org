@@ -9,5 +9,5 @@ before_install:
 script: bash ./ci-deploy.sh
 env:
   global:
-  - ENCRYPTION_LABEL: "0a6446eb3ae3"
+  - ENCRYPTION_LABEL: "c720931e8eec"
   - COMMIT_AUTHOR_EMAIL: "info@thepoliticalrev.org"
