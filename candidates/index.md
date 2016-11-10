@@ -3,7 +3,7 @@ layout: page
 title: Our Candidates
 description: A list of candidates endorsed by the Political Revolution. These are the candidates who will fight in your interest.
 image: /assets/images/teachout-megaphone-small.JPG
-nav-menu: yes
+nav-menu: no
 tile: yes
 after: <div id="root">Loading...</div>
 ---
