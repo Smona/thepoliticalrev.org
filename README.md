@@ -5,9 +5,21 @@
 
 **Staging/Test Site:** https://smona.github.io/thepoliticalrev.org/
 
-# Deployment
+# How to Contribute
 
 ## Development
+
+Members of the Political Rev org: Please remember to create a new branch for new features! It's okay to merge to master to check your work on the testing site, but let's try to keep master as close to ready to deploy as possible.
+
+To get started, clone the repo. To get your dev environment set up:
+
+1. run `npm install`
+2. run `webpack`
+3. In a different console window, run `jekyll serve`
+
+All changes will be built and served at localhost:4000
+
+## Testing Site
 
 Pushes to the master branch on GitHub will trigger a 
 [Travis CI](https://travis-ci.org/Smona/thepoliticalrev.org) build. This will publish
