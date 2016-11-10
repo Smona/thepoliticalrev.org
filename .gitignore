@@ -39,7 +39,7 @@ build/
 .rvmrc
 
 /_site/
-.sass-cache
+/.sass-cache/
 node_modules/
 /public_html/
 

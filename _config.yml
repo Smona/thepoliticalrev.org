@@ -68,10 +68,13 @@ prose:
   ignore:
     - _sass
     - _includes
+    - _layouts
     - .travis.yml
     - .babelrc
     - .gitignore
-    - .gitlab-ci.yaml
+    - .gitlab-ci.yml
+    - _github-config.yml
+    - package.json
     - android-chrome-192x192.png
     - android-chrome-512x512.png
     - apple-touch-icon.png
