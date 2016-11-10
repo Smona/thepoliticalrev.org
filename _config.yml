@@ -64,8 +64,11 @@ exclude:
 
 # Prose editor config
 prose:
-  rooturl: "_posts"
-  siteurl: "https://thepoliticalrev.org"
+  # rooturl: "_posts"
+  ignore:
+    - .travis.yml
+    - .babelrc
+  siteurl: "https://politicalrev.github.io/thepoliticalrev.org/"
   media: "assets/images/posts"
   metadata:
     _posts:
@@ -90,6 +93,12 @@ prose:
           help: "Used for google author attribution"
           type: "text"
           placeholder: "https://plus.google.com/<your-username>"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          help: "(optional) Short description or excerpt to show in post index."
+          type: "text"
       - name: "image"
         field:
           element: "text"

@@ -7,7 +7,7 @@
                 </span>
                 <header class="major">
                         <h3><a href="{{ site.baseurl }}{{ post.url }}" class="link">{{ post.title }}</a></h3>
-                        <p>{{ post.description }}</p>
+                        <p>{% if post.description %} {{ post.description }} {% else %} {{ post.excerpt }}{% endif %}</p>
                 </header>
         </article>
 	{% endif %}
