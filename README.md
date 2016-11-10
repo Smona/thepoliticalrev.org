@@ -1,15 +1,17 @@
 ![The Political Revolution](assets/images/Bumper.png "The Political Revolution")[![Build Status](https://travis-ci.org/Smona/thepoliticalrev.org.svg?branch=master)](https://travis-ci.org/Smona/thepoliticalrev.org)
 
 # The Political Revolution
-**Live Site:** https://thepoliticalrev.org
-
-**Staging/Test Site:** https://smona.github.io/thepoliticalrev.org/
+- **Coordination:** https://trello.com/b/B5swDgn1/tpr-website
+- **Live Site:** https://thepoliticalrev.org
+- **Staging/Test Site:** https://smona.github.io/thepoliticalrev.org/
 
 # How to Contribute
 
-## Development
+Submit an issue, open a new branch, or fork! Our current priorities and todos are on [Trello](https://trello.com/b/B5swDgn1/tpr-website).
 
 Members of the Political Rev org: Please remember to create a new branch for new features! It's okay to merge to master to check your work on the testing site, but let's try to keep master as close to ready to deploy as possible.
+
+## Development
 
 To get started, clone the repo. To get your dev environment set up:
 
@@ -20,6 +22,8 @@ To get started, clone the repo. To get your dev environment set up:
 All changes will be built and served at localhost:4000
 
 ## Testing Site
+
+*Note: The testing site is currently not working. This will be fixed soon*
 
 Pushes to the master branch on GitHub will trigger a 
 [Travis CI](https://travis-ci.org/Smona/thepoliticalrev.org) build. This will publish
