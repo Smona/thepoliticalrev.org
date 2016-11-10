@@ -13,17 +13,19 @@ Members of the Political Rev org: Please remember to create a new branch for new
 
 ## Development
 
+Our current stack is [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/), [React](https://facebook.github.io/react/), and [Webpack](https://webpack.github.io/).
+
 To get started, clone the repo. To get your dev environment set up:
 
 1. run `npm install`
 2. run `webpack`
 3. In a different console window, run `jekyll serve`
 
-All changes will be built and served at localhost:4000
+All changes will be built and served at localhost:4000.
 
 ## Testing Site
 
-Pushes to the master branch on GitHub will trigger a 
+Pushes to the master branch on GitHub will trigger a
 [Travis CI](https://travis-ci.org/politicalrev/thepoliticalrev.org) build. This will publish
 the site on GitHub Pages, to <https://politicalrev.github.io/thepoliticalrev.org>.
 
