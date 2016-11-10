@@ -17,7 +17,7 @@
 		{% endif %}
     {% for link in site.pages %}
 				{% if link.nav-menu %}
-						<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+						<li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
 				{% endif %}
 		{% endfor %}
 		        <!-- <li><a href="{{ site.baseurl }}about/">About</a></li>
