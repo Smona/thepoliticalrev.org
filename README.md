@@ -1,4 +1,4 @@
-![The Political Revolution](assets/images/Bumper.png "The Political Revolution")[![Build Status](https://travis-ci.org/Smona/thepoliticalrev.org.svg?branch=master)](https://travis-ci.org/Smona/thepoliticalrev.org)
+![The Political Revolution](assets/images/Bumper.png "The Political Revolution")[![Build Status](https://travis-ci.org/politicalrev/thepoliticalrev.org.svg?branch=master)](https://travis-ci.org/Smona/thepoliticalrev.org)
 
 # The Political Revolution
 - **Coordination:** https://trello.com/b/B5swDgn1/tpr-website
