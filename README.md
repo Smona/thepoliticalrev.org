@@ -1,8 +1,9 @@
 ![The Political Revolution](assets/images/Bumper.png "The Political Revolution")[![Build Status](https://travis-ci.org/Smona/thepoliticalrev.org.svg?branch=master)](https://travis-ci.org/Smona/thepoliticalrev.org)
 
-# Color Palette
+# The Political Revolution
+**Live Site:** https://thepoliticalrev.org
 
-Navy #04243E | Red #D34749 | Aqua #43C4DA | Cream #F9F9F9 | Olive #B9C3B7
+**Staging/Test Site:** https://smona.github.io/thepoliticalrev.org/
 
 # Deployment
 
@@ -27,4 +28,4 @@ The script uses Travis CI encypted keys. For more info, see
 
 Forty by HTML5 UP
 html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Free for personal and commercial use under the [CCA 3.0 license](html5up.net/license)
