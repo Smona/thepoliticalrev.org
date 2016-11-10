@@ -1,9 +1,9 @@
-![The Political Revolution](assets/images/Bumper.png "The Political Revolution")[![Build Status](https://travis-ci.org/Smona/thepoliticalrev.org.svg?branch=master)](https://travis-ci.org/Smona/thepoliticalrev.org)
+![The Political Revolution](assets/images/Bumper.png "The Political Revolution")[![Build Status](https://travis-ci.org/politicalrev/thepoliticalrev.org.svg?branch=master)](https://travis-ci.org/politicalrev/thepoliticalrev.org)
 
 # The Political Revolution
 - **Coordination:** https://trello.com/b/B5swDgn1/tpr-website
 - **Live Site:** https://thepoliticalrev.org
-- **Staging/Test Site:** https://smona.github.io/thepoliticalrev.org/
+- **Staging/Test Site:** https://politicalrev.github.io/thepoliticalrev.org/
 
 # How to Contribute
 
@@ -26,8 +26,8 @@ All changes will be built and served at localhost:4000
 *Note: The testing site is currently not working. This will be fixed soon*
 
 Pushes to the master branch on GitHub will trigger a 
-[Travis CI](https://travis-ci.org/Smona/thepoliticalrev.org) build. This will publish
-the site on GitHub Pages, to <https://smona.github.io/thepoliticalrev.org>.
+[Travis CI](https://travis-ci.org/politicalrev/thepoliticalrev.org) build. This will publish
+the site on GitHub Pages, to <https://politicalrev.github.io/thepoliticalrev.org>.
 
 The Travis build script at `.travis.yml` installs node.js and rvm, and then runs the
 `ci-deploy.sh` script.
