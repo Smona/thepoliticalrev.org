@@ -1,0 +1,46 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+    {% if page.banner != 'no' %}
+      <img src="{{ site.baseurl }}assets/images/{{ page.banner }}" class="image fit">
+    {% endif %}
+
+    <main class="page responsive-text">
+      <h1 id="responsive_headline">{{ page.title }}</h1>
+      <section class="text-wrapper">
+        <div class="letterhead">
+          <i class="fa fa-star star"></i>
+          <i class="fa fa-star star"></i>
+          <i class="fa fa-star star"></i>
+          <img src="{{ site.baseurl }}/assets/images/button.png" alt="TPR Logo"/>
+          <i class="fa fa-star star"></i>
+          <i class="fa fa-star star"></i>
+          <i class="fa fa-star star"></i>
+        </div>
+        {{ content }}
+      </section>
+    </main>
+    {{ page.after }}
+    {% include footer.html %}
+    <script src="{{ site.baseurl }}/assets/js/jquery.fittext.js"></script>
+    <script>
+      $(document).ready(function () {$("#responsive_headline").fitText(0.7, { minFontSize: '20px', maxFontSize: '100px' });});
+    </script>
+
+</body>
+
+</html>

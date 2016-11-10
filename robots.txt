@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /assets/js/* /assets/css/*
+Sitemap: http://www.thepoliticalrev.org/sitemap.xml
