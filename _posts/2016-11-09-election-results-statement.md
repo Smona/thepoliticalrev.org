@@ -5,7 +5,7 @@ title: On the Results of the 2016 Election
 description: A Statement from The Political Revolution on what happened on November 8th, and what we must do to fix it.
 author-googleplus: 'https://plus.google.com/+MasonBourgeois'
 author: The Political Revolution
-image: '/assets/images/american-flag.jpg'
+image: '/assets/images/posts/tpr-logo-vertical.png'
 medium: no
 ---
 
@@ -25,4 +25,4 @@ To that end, it is crucial that we do not let our anger and spite stand in the w
 
 In Solidarity,
 
-The Political Revolution
+__The Political Revolution__
