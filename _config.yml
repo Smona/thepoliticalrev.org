@@ -28,7 +28,7 @@ gems:
   - jekyll-feed
 
 # Homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 8
 
 # Social settings
@@ -107,6 +107,11 @@ defaults:
       title: ""
       banner: "no"
       layout: default
+  -
+    scope:
+      path: "_posts"
+    values:
+      medium: "yes"
 
 # Plugin: jekyll-seo-tag
 twitter:

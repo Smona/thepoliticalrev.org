@@ -28,7 +28,9 @@ layout: compress
     <article class="text-wrapper">
 		    {{ content }}
         <hr>
-        <p> You can read more articles written for the Political Revolution on <a href="https://medium.com/@OurPoliticalRev">Medium</a>.
+        {% if page.medium == 'yes' %}<p>
+          You can read more articles written for the Political Revolution on <a href="https://medium.com/@OurPoliticalRev">Medium</a>.
+        </p>{% endif %}
         {% include social-share.html %}
     </article>
   </main>

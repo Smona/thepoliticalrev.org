@@ -16,10 +16,10 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
+<a class="btn-tweet" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | strip_html | truncate: 100 | uri_escape  }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&via={{ site.twitter.plain_username }}">Tweet</a>
 <div
   class="fb-like"
   data-share="true"
   data-width="450"
   data-show-faces="true">
 </div>
-<a class="btn-tweet" href="https://twitter.com/intent/tweet?text={{ page.title | strip_html | truncate: 100 | uri_escape  }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&via={{ site.twitter.plain_username }}">Tweet</a>
