@@ -6,7 +6,6 @@ description: A Statement from The Political Revolution on what happened on Novem
 author-googleplus: 'https://plus.google.com/+MasonBourgeois'
 author: The Political Revolution
 image: '/assets/images/posts/tpr-logo-vertical.png'
-medium: no
 ---
 
 Dear Fellow Americans,
