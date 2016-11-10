@@ -69,6 +69,7 @@ prose:
     - _sass
     - _includes
     - _layouts
+    - assets
     - .travis.yml
     - .babelrc
     - .gitignore
@@ -94,6 +95,9 @@ prose:
     - safari-pinned-tab.svg
     - webpack.config.js
     - webpack.production.config.js
+    - CHANGELOG.md
+    - LICENSE.md
+    - robots.txt
 
   siteurl: "https://politicalrev.github.io/thepoliticalrev.org/"
   media: "assets/images/posts"
