@@ -23,8 +23,6 @@ All changes will be built and served at localhost:4000
 
 ## Testing Site
 
-*Note: The testing site is currently not working. This will be fixed soon*
-
 Pushes to the master branch on GitHub will trigger a 
 [Travis CI](https://travis-ci.org/politicalrev/thepoliticalrev.org) build. This will publish
 the site on GitHub Pages, to <https://politicalrev.github.io/thepoliticalrev.org>.
