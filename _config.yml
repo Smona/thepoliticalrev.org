@@ -111,6 +111,7 @@ defaults:
 # Plugin: jekyll-seo-tag
 twitter:
   username: "@OurPoliticalRev"
+  plain_username: "OurPoliticalRev"
 # Add one or more of the following
 facebook:
   app_id: 206987373045662
