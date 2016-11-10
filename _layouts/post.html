@@ -12,31 +12,32 @@ layout: compress
 
 {% include head.html %}
 
-<body>
+<body class="post">
 
-    {% include header.html %}
+  {% include header.html %}
 
+  <main class="responsive-text">
+    <div class="post-banner" {% if page.image %}style="background-image: url({{ site.baseurl }}{{ page.image }})"{% endif %}>
+  		<header class="major">
+  			<h1>{{ page.title }}</h1>
 
-<!-- Main -->
-<div id="main" class="alt">
+        {% if page.author %}<span class="post-info">By {{ page.author }}</span>{% endif %}
+        {% if page.date %}<span class="post-info date">{{ page.date | date_to_long_string }}</span>{% endif %}
+  		</header>
+    </div>
+    <article class="text-wrapper">
+		    {{ content }}
+        <hr>
+        <p> You can read more articles written for the Political Revolution on <a href="https://medium.com/@OurPoliticalRev">Medium</a>.
+        {% include social-share.html %}
+    </article>
+  </main>
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>{{ page.title }}</h1>
-      {% if page.author %}
-        <span>Written by {{ page.author }}</span>
-      {% endif %}
-		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}{{ page.image }}" alt="" /></span>{% endif %}
-		<p>{{ content }}</p>
-	</div>
-</section>
-
-</div>
-
-    {% include footer.html %}
+  {% include footer.html %}
+  <!-- <script src="{{ site.baseurl }}/assets/js/jquery.fittext.js"></script>
+  <script>
+    $(document).ready(function () {$("h1", "header.major").fitText(0.7, { minFontSize: '20px', maxFontSize: '100px' });});
+  </script> -->
 
 </body>
 

@@ -7,6 +7,14 @@
 /* Footer */
 
 	#footer {
+		background: _palette(bg);
+		@include padding(3em, 2em);
+		margin: 0 auto;
+		width: 100%;
+
+		@include breakpoint(small) {
+			@include padding(3em, 1em);
+		}
 		.copyright {
 			font-size: 0.8em;
 			list-style: none;

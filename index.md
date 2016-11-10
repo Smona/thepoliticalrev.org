@@ -7,7 +7,7 @@ image: /assets/images/background-polrev-compressed.png
 ---
 
 <!-- Banner -->
-<section id="banner" class="major">
+<section id="banner" class="major" style="background-image: url({{ site.baseurl}}/assets/images/background-polrev-compressed.png);">
 	<div class="inner">
 		<header class="major">
 			<h1>{{ page.landing-title }}</h1>

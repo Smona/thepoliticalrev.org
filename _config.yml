@@ -11,7 +11,7 @@ title-normal: Progressives for the People
 email: info@thepoliticalrev.org
 description: "We can change the future of America, but we need your help."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.thepoliticalrev.org" # the base hostname & protocol for your site
+url: "http://thepoliticalrev.org" # the base hostname & protocol for your site
 author:
   twitter: "@OurPoliticalRev"
 street_address:
