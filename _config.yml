@@ -97,6 +97,8 @@ prose:
     - webpack.production.config.js
     - CHANGELOG.md
     - LICENSE.md
+    - CONTRIBUTING.md
+    - README.md
     - robots.txt
 
   siteurl: "https://politicalrev.github.io/thepoliticalrev.org/"
