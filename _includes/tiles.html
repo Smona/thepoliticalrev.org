@@ -1,7 +1,7 @@
 <section id="one" class="tiles">
 	{% for post in site.posts limit:site.tiles-count %}
 	{% if site.tiles-source == 'posts' %}
-        <article class="tmp-max-width">
+        <article>
                 <span class="image">
                         <img src="{{ site.baseurl }}{{ post.image }}" alt="" />
                 </span>

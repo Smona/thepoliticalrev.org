@@ -69,10 +69,6 @@
 				width: 100%;
 				z-index: 4;
 			}
-			&.tmp-max-width {
-				width: 100% !important;
-				
-			}
 
 			&:before {
 				@include vendor('transition', 'opacity 0.5s ease');

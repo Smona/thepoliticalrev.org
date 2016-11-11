@@ -26,11 +26,13 @@ body.post
 		text-align: center
 		// border: 5px double _palette(bg)
 		width: 100%
-		max-width: 30em
+		max-width: 44em
 		z-index: 10
 		display: block
 		h1
-			font-size: 3.5em
+			font-size: 2.5em
+			@media all and (max-width: 500px)
+				font-size: 2.5em
 			line-height: 1.2
 			width: auto
 			&::after

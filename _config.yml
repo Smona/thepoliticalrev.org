@@ -154,6 +154,7 @@ defaults:
       path: "_posts"
     values:
       medium: "yes"
+      layout: post
 
 # Plugin: jekyll-seo-tag
 twitter:
