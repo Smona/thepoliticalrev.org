@@ -101,7 +101,7 @@ prose:
     - README.md
     - robots.txt
 
-  siteurl: "https://politicalrev.github.io/thepoliticalrev.org/"
+  siteurl: "http://thepoliticalrev.org"
   media: "assets/images/posts"
   metadata:
     _posts:
