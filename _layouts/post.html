@@ -46,7 +46,8 @@ layout: compress
     <aside class="post-list">
       <h2>Latest Posts</h2>
       <section class="tiles">
-        {% for post in site.posts %}
+        {% assign latest = site.posts | where_exp:"post","post.path != page.path" %}
+        {% for post in latest %}
           <article>
             <header class="major">
               <span class="image">
