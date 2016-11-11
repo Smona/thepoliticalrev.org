@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: Bernie Sanders Endorses Keith Ellison for DNC Chair
 image: /assets/images/posts/Keith_Ellison_01.jpg
 author: Harpreet Chima
@@ -15,4 +15,4 @@ That is why we must join Bernie Sanders in promoting Representative Keith Elliso
 
 However, if we wish to exert our influence, we must do so quickly. Nancy Pelosi, the incoming House Minority Leader, is one of many who will be trying to get her choice picked as the new chair. We must not let the DNC pick another corporatist Democrat. We can do our part by [sending a message directly to the DNC](http://my.democrats.org/page/s/contact-the-democrats) and letting them know that we support Rep. Ellison. We can also contact Pelosi ([Facebook](https://www.facebook.com/NancyPelosi) / [Twitter](https://twitter.com/nancypelosi) / [Instagram](https://www.instagram.com/nancypelosi/) / [Email](https://pelosi.house.gov/contact-me/email-me)) and assure her that we will not blindly follow her leadership choice out of party loyalty.
 
-Lend your support by joining the Facebook Page: [Keith For DNC](https://www.facebook.com/KeithForDNC/) and make your voice heard by signing the [petition](http://pac.petitions.moveon.org/sign/appoint-keith-ellison?source=keithfordnc&fb_test=0) to Appoint Keith Ellison as DNC Chair! 
+Lend your support by joining the Facebook Page: [Keith For DNC](https://www.facebook.com/KeithForDNC/) and make your voice heard by signing the [petition](http://pac.petitions.moveon.org/sign/appoint-keith-ellison?source=keithfordnc&fb_test=0) to Appoint Keith Ellison as DNC Chair!

@@ -108,7 +108,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "blog"
       - name: "title"
         field:
           element: "text"
@@ -154,7 +154,7 @@ defaults:
       path: "_posts"
     values:
       medium: "yes"
-      layout: post
+      layout: blog
 
 # Plugin: jekyll-seo-tag
 twitter:

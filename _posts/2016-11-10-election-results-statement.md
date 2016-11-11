@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 published: true
 title: On the Results of the 2016 Election
 description: A Statement from The Political Revolution on what happened on November 8th, and what we must do to fix it.
