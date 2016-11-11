@@ -36,6 +36,7 @@
 			position: relative;
 			width: 40%;
 
+
 			.image {
 				display: none;
 			}
@@ -43,6 +44,9 @@
 			header {
 				position: relative;
 				z-index: 3;
+				text-overflow: ellipsis;
+				height: 12.3em;
+				overflow: hidden;
 				p {
 					@include vendor('transition', 'text-shadow 0.5s ease');
 				}

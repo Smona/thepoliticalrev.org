@@ -1,6 +1,6 @@
 ---
 title: Bernie Sanders Endorses Keith Ellison for DNC Chair
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Keith_Ellison_01.jpg/800px-Keith_Ellison_01.jpg"
+image: /assets/images/posts/Keith_Ellison_01.jpg
 author: Harpreet Chima
 ---
 
