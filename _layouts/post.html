@@ -54,6 +54,7 @@ layout: compress
                       <img src="{{ site.baseurl }}{{ post.image }}" alt="" />
               </span>
               <h3><a href="{{ site.baseurl }}{{ post.url }}" class="link">{{ post.title }}</a></h3>
+              <span class="post-info">{{ post.date | date_to_long_string }}</span>
             </header>
           </article>
         {% endfor %}
