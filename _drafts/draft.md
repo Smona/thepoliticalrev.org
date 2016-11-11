@@ -1,6 +1,8 @@
 ---
+layout: post
+published: false
+title: Untitled
 ---
-
 Today, Bernie Sanders has thrown his support behind Minnesota Representative Keith Ellison for Chairman of the Democratic National Convention. Rep. Ellison, the first Muslim elected to Congress, was an early and ardent supporter of Sanders’ presidential run during the Democratic Primary. As a co-chair of Bernie’s Congressional Progressive Caucus, the two have frequently worked together with other Democrats to introduce progressive legislation such as increasing the minimum wage and banning private prisons.
 Keith Ellison opposes the TPP and has sponsored legislation that would stop corporations from storing their money in offshore tax havens. He understands that the current concentration of wealth has distorted our democracy and has eroded our country’s social and cultural fabric. He has voted to allow rehabilitated drug convicts to get student loans, to expunge criminal records for first time drug offenders after probation, and has voted NO on more funding for Mexico to fight the failed drug war. Rep. Ellison has also stood in solidarity with the protestors against the North Dakota Access Pipeline when others have remained silent. Keith understood that a populist wave would be sweeping throughout the nation and that a Trump presidency was possible, saying so back in July 2015.
 The role of the Democratic National Committee is not a small one. It coordinates and funds candidates throughout the country for local, state, and federal office and is responsible for developing the party platform. In the future, we need progressive Democrats to run in all elections, from school boards in California to Senate races in Wyoming. The American people need to be exposed to a new Democratic Party, a party that has thrown away the shackles of big donors and lobbyists.
