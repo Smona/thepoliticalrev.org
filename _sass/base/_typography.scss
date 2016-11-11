@@ -188,9 +188,9 @@
 	.text-wrapper {
 		max-width: 800px;
 		margin: 0 auto;
-		padding: 1em 1em;
-		@media all and (min-width: 400px) {
-			padding: 1em 2em;
+		padding: 2em .7em;
+		@media all and (min-width: 500px) {
+			padding: 2em 2em;
 		}
 	}
 	.responsive-text {

@@ -1,7 +1,5 @@
 body.post
 	background: _palette(fg)
-	*
-		color: _palette(bg)
 	main
 		display: flex
 		justify-content: space-around
@@ -50,9 +48,13 @@ body.post
 				font-size: .8em
 
 	.text-wrapper
-		flex-basis: 50em
+		flex-basis: 40em
 		flex-grow: 4
+		@media all and (max-width: 500px)
+			max-width: 100%
 		margin: 0
+		*
+			color: _palette(bg)
 		hr
 			border-bottom: solid 1px transparentize(_palette(bg), .9)
 		position: relative
@@ -65,6 +67,8 @@ aside.post-list
 	flex-grow: 1
 	margin: 2em 1em 2em
 	font-size: .8em
+	h2
+		color: _palette(bg)
 	article
 		overflow: hidden
 		*
