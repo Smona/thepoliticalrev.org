@@ -3,7 +3,6 @@ title: Bernie Sanders Endorses Keith Ellison for DNC Chair
 image: /assets/images/posts/Keith_Ellison_01.jpg
 author: Harpreet Chima
 ---
-
 Today, Bernie Sanders has thrown his support behind Minnesota Representative Keith Ellison for Chairman of the Democratic National Convention. Rep. Ellison, the first Muslim elected to Congress, was an early and ardent supporter of Sanders’ presidential run during the Democratic Primary. As a co-chair of Bernie’s Congressional Progressive Caucus, the two have frequently worked together with other Democrats to introduce progressive legislation such as increasing the minimum wage and banning private prisons.
 
 Keith Ellison opposes the TPP and has sponsored legislation that would stop corporations from storing their money in offshore tax havens. He understands that the current concentration of wealth has distorted our democracy and has eroded our country’s social and cultural fabric. He has voted to allow rehabilitated drug convicts to get student loans, to expunge criminal records for first time drug offenders after probation, and has voted NO on more funding for Mexico to fight the failed drug war. Rep. Ellison has also stood in solidarity with the protestors against the North Dakota Access Pipeline when others have remained silent. Keith understood that a populist wave would be sweeping throughout the nation and that a Trump presidency was possible, saying so back in [July 2015](https://www.youtube.com/watch?v=FHkPadFK34o).
