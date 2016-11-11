@@ -30,6 +30,16 @@
 			background-size: cover;
 			cursor: default;
 			height: 40vh;
+			.post-list & {
+				height: auto;
+				min-height: 3em;
+				width: 100% !important;
+				padding: 0;
+				header.major {
+					padding: 0;
+					margin: 1em 1em;
+				}
+			}
 			max-height: 40em;
 			min-height: 23em;
 			overflow: hidden;
