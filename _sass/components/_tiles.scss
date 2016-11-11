@@ -44,9 +44,12 @@
 			header {
 				position: relative;
 				z-index: 3;
-				text-overflow: ellipsis;
-				height: 12.3em;
+				max-height: 12.3em;
 				overflow: hidden;
+				width: auto;
+				&:first-child {
+					width: 100;
+				}
 				p {
 					@include vendor('transition', 'text-shadow 0.5s ease');
 				}
