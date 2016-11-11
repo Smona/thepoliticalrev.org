@@ -42,7 +42,22 @@ layout: compress
 
         {% include social-share.html %}
     </article>
-    
+
+    <aside class="post-list">
+      <h2>Latest Posts</h2>
+      <section class="tiles">
+        {% for post in site.posts %}
+          <article>
+            <header class="major">
+              <span class="image">
+                      <img src="{{ site.baseurl }}{{ post.image }}" alt="" />
+              </span>
+              <h3><a href="{{ site.baseurl }}{{ post.url }}" class="link">{{ post.title }}</a></h3>
+            </header>
+          </article>
+        {% endfor %}
+    </aside>
+
   </main>
 
   {% include footer.html %}

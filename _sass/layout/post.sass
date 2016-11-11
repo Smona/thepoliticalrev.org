@@ -1,5 +1,12 @@
 body.post
 	background: _palette(fg)
+	*
+		color: _palette(bg)
+	main
+		display: flex
+		justify-content: space-around
+		flex-flow: row wrap
+
 	.post-banner
 		width: 100%
 		background-size: cover
@@ -20,7 +27,6 @@ body.post
 	header.major
 		// background: fade-out(_palette(fg-bold), .2)
 		position: relative
-		color: _palette(fg)
 		padding: 1.5em 0
 		margin: 0 auto
 		text-align: center
@@ -31,24 +37,35 @@ body.post
 		display: block
 		h1
 			font-size: 2.5em
-			@media all and (max-width: 500px)
-				font-size: 2.5em
+			color: _palette(fg)
 			line-height: 1.2
 			width: auto
 			&::after
 				margin-bottom: .2em
 			// color: _palette(bg)
 		span.post-info
+			color: _palette(fg)
 			display: block
 			&.date
 				font-size: .8em
 
 	.text-wrapper
-		*
-			color: _palette(bg)
+		flex-basis: 50em
+		flex-grow: 4
+		margin: 0
 		hr
 			border-bottom: solid 1px transparentize(_palette(bg), .9)
 		position: relative
 		z-index: 10
 		>p
 			font-weight: 500
+
+aside.post-list
+	max-width: 18em
+	flex-grow: 1
+	margin-top: 2em
+	font-size: .8em
+	article
+		overflow: hidden
+		*
+			color: _palette(fg-bold)
