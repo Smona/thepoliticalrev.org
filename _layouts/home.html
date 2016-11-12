@@ -17,14 +17,14 @@ layout: compress
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="major" style="background-image: url({{ site.baseurl}}/assets/images/background-polrev-compressed.png);">
+    <section id="banner" class="major" role="banner" style="background-image: url({{ site.baseurl}}/assets/images/background-polrev-compressed.png);">
     	<div class="inner">
     		<header class="major">
     			<h1>{{ page.landing-title }}</h1>
     		</header>
     		<div class="content">
     			<p>{{ page.CTA }}</p>
-    			<form id="email-signup" autocomplete="on" method="post" action="https://tinyletter.com/ThePoliticalRevolution">
+    			<form id="email-signup" autocomplete="on" method="post" role="form" action="https://tinyletter.com/ThePoliticalRevolution">
     				<label for="email">Email</label>
     				<input type="email" name="email" id="email" placeholder="sen.sanders@gmail.com" autofocus/>
     				<button type="submit" class="important">Join Us</button>
@@ -37,7 +37,7 @@ layout: compress
     </section>
 
     <!-- Main -->
-    <div id="main">
+    <div role="main" id="main">
 
       <!-- Two -->
       <section id="two">
