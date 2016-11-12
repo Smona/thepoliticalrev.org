@@ -31,8 +31,8 @@
 		// Automatically added/removed by js/main.js.
 			&.is-loading {
 				*, *:before, *:after {
-					@include vendor('animation', 'none !important');
-					@include vendor('transition', 'none !important');
+					animation: none !important;
+					transition: none !important;
 				}
 			}
 
