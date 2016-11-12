@@ -15,7 +15,7 @@ Members of the Political Rev org: Please remember to create a new branch for new
 
 Our current stack is [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/), [React](https://facebook.github.io/react/), and [Webpack](https://webpack.github.io/).
 
-To get started, clone the repo. To get your dev environment set up make sure you have [ruby installed](https://www.ruby-lang.org/en/documentation/installation/) and do the following:
+To get started, clone the repo. To get your dev environment set up make sure you have [ruby installed](https://www.ruby-lang.org/en/documentation/installation/). Jekyll isn't officially supported on Windows, but there is a [guide to setting it up](http://jekyll-windows.juthilo.com/). Then do the following:
 
 1. run `npm install`
 2. run `gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed` 
