@@ -15,11 +15,12 @@ Members of the Political Rev org: Please remember to create a new branch for new
 
 Our current stack is [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/), [React](https://facebook.github.io/react/), and [Webpack](https://webpack.github.io/).
 
-To get started, clone the repo. To get your dev environment set up:
+To get started, clone the repo. To get your dev environment set up make sure you have [ruby installed](https://www.ruby-lang.org/en/documentation/installation/) and do the following:
 
 1. run `npm install`
-2. run `webpack`
-3. In a different console window, run `jekyll serve`
+2. run `gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed` 
+3. run `npm run build`
+4. In a different console window, run `jekyll serve`
 
 All changes will be built and served at localhost:4000.
 
