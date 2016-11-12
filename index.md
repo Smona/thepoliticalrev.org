@@ -12,7 +12,9 @@ CTA: "Change can only take place when people get involved in the political proce
 <header class="major">
 	<h2>Let's do this</h2>
 </header>
-<p>With your help, we can build a better United States for everyone, not just the top one percent.</p>
+
+With your help, we can build a better United States for everyone, not just the top one percent.
+
 <ul class="actions">
 	<li><a href="{{ site.baseurl }}fight" class="button next">Get Started</a></li>
 </ul>

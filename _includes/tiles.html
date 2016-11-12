@@ -1,6 +1,13 @@
 <section id="one" class="tiles">
-	{% for post in site.posts limit:site.tiles-count %}
 	{% if site.tiles-source == 'posts' %}
+	<!-- <div class="inner"> -->
+		<header class="major">
+			<h2>Latest Posts</h2>
+			<p>Updates on candidates and issues you care about.</p>
+		</header>
+
+	<!-- </div> -->
+	{% for post in site.posts limit:site.tiles-count %}
         <article>
                 <span class="image">
                         <img src="{{ site.baseurl }}{{ post.image }}" alt="" />
@@ -10,8 +17,8 @@
                         <p>{% if post.description %} {{ post.description }} {% else %} {{ post.excerpt }}{% endif %}</p>
                 </header>
         </article>
-	{% endif %}
 	{% endfor %}
+	{% endif %}
 	{% for page in site.pages %}
 		{% if site.tiles-source == 'pages' and page.tile %}
 	        <article>

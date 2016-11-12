@@ -15,7 +15,20 @@
 			border-top: 0 !important;
 		}
 
-		article {
+		>header.major {
+			// padding: 4em 4em 3em 4em;
+			// width: 40%;
+			// display: flex;
+			// align-items: center;
+			flex-direction: column;
+			justify-content: center;
+			margin: 0;
+			h2 {
+				// flex-basis: 100%;
+			}
+		}
+
+		article, >header.major {
 			@include vendor('align-items', 'center');
 			@include vendor('display', 'flex');
 			@include vendor('transition', (
@@ -87,31 +100,6 @@
 				z-index: 4;
 			}
 
-			&:before {
-				@include vendor('transition', 'opacity 0.5s ease');
-				bottom: 0;
-				content: '';
-				display: block;
-				height: 100%;
-				left: 0;
-				opacity: 0.85;
-				position: absolute;
-				width: 100%;
-				z-index: 2;
-			}
-
-			&:after {
-				background-color: transparentize(_palette(bg), 0.75);
-				content: '';
-				display: block;
-				height: 100%;
-				left: 0;
-				position: absolute;
-				top: 0;
-				width: 100%;
-				z-index: 1;
-			}
-
 			&:hover {
 				header>p {
 					text-shadow: 1px 1px 0px fade-out(_palette(bg), .5);
@@ -131,7 +119,9 @@
 			}
 
 			&:nth-child(4n - 1),
-			&:nth-child(4n - 2) {
+			&:nth-child(4n - 2),
+			div.inner:nth-child(4n - 1),
+			div.inner:nth-child(4n - 2), {
 				width: 60%;
 			}
 
@@ -173,7 +163,7 @@
 		}
 
 		@include breakpoint(large) {
-			article {
+			article, >header.major {
 				@include padding(4em, 3em);
 				height: 30vh;
 				max-height: 30em;
@@ -182,13 +172,13 @@
 		}
 
 		@include breakpoint(medium) {
-			article {
+			article, >header.major {
 				width: 50% !important;
 			}
 		}
 
 		@include breakpoint(small) {
-			article {
+			article, >header.major {
 				@include padding(3em, 1.5em);
 				height: 16em;
 				max-height: none;
@@ -207,5 +197,34 @@
 				height: 20em;
 				width: 100% !important;
 			}
+			>header.major {
+				height: 10em;
+				width: 100% !important;
+			}
 		}
+
+	article:before {
+		@include vendor('transition', 'opacity 0.5s ease');
+		bottom: 0;
+		content: '';
+		display: block;
+		height: 100%;
+		left: 0;
+		opacity: 0.85;
+		position: absolute;
+		width: 100%;
+		z-index: 2;
 	}
+
+	article:after {
+		background-color: transparentize(_palette(bg), 0.75);
+		content: '';
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+}
