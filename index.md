@@ -16,5 +16,5 @@ CTA: "Change can only take place when people get involved in the political proce
 With your help, we can build a better United States for everyone, not just the top one percent.
 
 <ul class="actions">
-	<li><a href="{{ site.baseurl }}fight" class="button next">Get Started</a></li>
+	<li><a href="{{ site.baseurl }}/fight" class="button next">Get Started</a></li>
 </ul>
