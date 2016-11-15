@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://politicalrev.github.io/thepoliticalrev.org/2016/11/14/dapl-day-of-action.html</loc>
+<lastmod>2016-11-14T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://politicalrev.github.io/thepoliticalrev.org/2016/11/11/bernie-sanders-endorses-keith-ellison.html</loc>
 <lastmod>2016-11-11T00:00:00+00:00</lastmod>
 </url>
@@ -22,5 +26,9 @@
 </url>
 <url>
 <loc>https://politicalrev.github.io/thepoliticalrev.org/</loc>
+</url>
+<url>
+<loc>https://politicalrev.github.io/thepoliticalrev.org/app.html</loc>
+<lastmod>2016-11-15T01:27:16+00:00</lastmod>
 </url>
 </urlset>
