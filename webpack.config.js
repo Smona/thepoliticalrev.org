@@ -1,12 +1,12 @@
 const path = require('path');
 const webpack = require('webpack');
 
-var dir = path.join(__dirname, '/assets/js');
+var dir = path.join(__dirname, '/app');
 
 module.exports = {
-	entry: dir + '/CandidateList/FilterableCandidateList.js',
+	entry: path.join(__dirname, '/app/app.js'),
 	output: {
-		path: dir,
+		path: __dirname,
 		filename: 'bundle.js'
 	},
 	module: {
