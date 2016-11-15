@@ -9,7 +9,7 @@ The ongoing protest against the construction of the Dakota Access Pipeline (DAPL
 
 Running from the Bakken oil fields in western North Dakota to southern Illinois, the proposed pipeline would cross beneath the Missouri and Mississippi rivers, as well as part of Lake Oahe near the Standing Rock Indian Reservation. Opposition to the project raised by Indigenous nations, farmers, landowners, and conservation groups has focused on the potential for significant damage to the environment, both during construction and as an ongoing risk once the pipeline is operational. DAPL risks endangering a source of fresh water for the Standing Rock Sioux and 8 million people living downstream. DAPL would also impact many sites that are sacred to the Standing Rock Sioux and other Indigenous nations.
 
-![Crowd of peaceful protestors at the demonstration against DAPL](/assets/images/posts/dapl-flower.jpg)
+![Crowd of peaceful protestors at the demonstration against DAPL]({{ site.baseurl }}/assets/images/posts/dapl-flower.jpg)
 
 The reaction of the authorities to these concerns has been both dismissive and heavy-handed. North Dakota state troopers, the National Guard, other law enforcement agencies, and private security firms have meted out harsh treatment on protesters, utilizing attack dogs and pepper spray alongside arrests and strip-searches in their attempt to break the people’s opposition to the construction of the pipeline.
 
