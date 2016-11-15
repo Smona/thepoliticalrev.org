@@ -25,5 +25,5 @@ We have 65 days until Trump is inaugurated as President of the United States. We
 
 This Tuesday is the day to act.
 
-Find a [location](https://actionnetwork.org/event_campaigns/nov-15-nodapl-day-of-action-at-army-corps-of-engineer) near you.
+Find a [location](https://actionnetwork.org/event_campaigns/nov-15-nodapl-day-of-action-at-army-corps-of-engineers) near you.
 Find out more about Indigenous led [movement](https://nodaplsolidarity.org/) to stop the DAPL.
