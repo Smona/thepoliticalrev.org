@@ -1,7 +1,7 @@
 ---
 title: Bernie Sanders to Speak at Rally in Washington DC
 author: Vienna Thompkins
-image: /assets/images
+image: /assets/images/bernie-rally.png
 ---
 
 Bernie Sanders will make his first rally appearance since the election, taking the stage on Thursday, November 17th in Washington DC. The rally, sponsored by National Nurses United and with support from Progressive Democrats for America, aims to promote a progressive agenda and a common commitment to social and economic justice and equality. 
