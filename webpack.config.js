@@ -1,17 +1,22 @@
+/* jshint esversion: 6 */
+
 const path = require('path');
 const webpack = require('webpack');
 
-var dir = path.join(__dirname, '/app');
+var dir = path.join(__dirname, '/assets/js');
 
 module.exports = {
-	entry: path.join(__dirname, '/app/app.js'),
+	entry: {
+		CandidateList: path.join(dir, '/CandidateList/CandidateList.js'),
+		ActivismTool: path.join(dir, '/ActivismTool/ActivismTool.jsx'),
+	},
 	output: {
-		path: __dirname,
-		filename: 'bundle.js'
+		path: dir,
+		filename: '[name].js'
 	},
 	module: {
 		loaders: [
-			{test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'},
+			{test: /\.js/, exclude: /node_modules/, loader: 'babel-loader'},
 			{test: /\.sass$/, loader: 'style!css?autoprefixer?minifySelectors!sass'}
 		]
 	},

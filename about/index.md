@@ -9,7 +9,7 @@ tile: yes
 
 > "We need a political revolution of millions of people in this country who are prepared to stand up and say, 'enough is enough' ... I want to help lead that effort." - Sen. Bernie Sanders
 
-The Political Revolution is a collective of [volunteers]({{ site.baseurl }}fight/index.html) that grew out of the Bernie Sanders campaign. We're an organization focused on digital campaigning, and connecting progressives across the nation. Our goal is to support progressive candidates and ballot iniatives on a state-by-state message, and to amplify the message of other like-minded organizations and campaigns.
+The Political Revolution is a collective of [volunteers]({{ site.baseurl }}fight/index.html) that grew out of the Bernie Sanders campaign. We're an organization focused on digital campaigning, and connecting progressives across the nation. Our goal is to support progressive candidates and ballot initiatives on a state-by-state message, and to amplify the message of other like-minded organizations and campaigns.
 
 ## History
 
