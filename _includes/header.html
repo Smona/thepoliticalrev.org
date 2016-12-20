@@ -4,7 +4,18 @@
 	<!-- Header -->
 	<header id="header"{% if page.layout == "landing" %} class="alt"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 		<a href="{{ site.url }}{{ site.baseurl }}" class="logo"><strong>{{ site.title-bold }}</strong> <span>{{ site.title-normal }}</span></a>
-		<nav>
+		<nav id="responsive-menu">
+			<ul class="links">
+				<li></li>
+				{% if page.layout != "home" %}
+						<li><a href="{{ site.baseurl }}/">Home</a></li>
+				{% endif %}
+				{% for link in site.pages %}
+						{% if link.nav-menu %}
+								<li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+						{% endif %}
+				{% endfor %}
+			</ul>
 			<a href="#menu">Menu</a>
 		</nav>
 	</header>

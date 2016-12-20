@@ -25,7 +25,7 @@
 		position: fixed;
 		text-transform: uppercase;
 		top: 0;
-		width: 100%;
+		width: 100vw;
 		z-index: _misc(z-index-base);
 
 		.logo {
@@ -35,6 +35,8 @@
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
+			white-space: nowrap;
+			flex-grow: 0;
 
 			strong {
 				@include vendor('transition', (
@@ -67,9 +69,9 @@
 		}
 
 		nav {
-			@include vendor('display', 'flex');
-			@include vendor('justify-content', 'flex-end');
-			@include vendor('flex-grow', '1');
+			display: flex;
+			justify-content: flex-end;
+			flex-grow: 1;
 			height: inherit;
 			line-height: inherit;
 
@@ -129,7 +131,7 @@
 				}
 			}
 		}
-
+		
 		&.reveal {
 			@include vendor('animation', 'reveal-header 0.35s ease');
 			.logo {
@@ -145,6 +147,9 @@
 			box-shadow: none;
 			position: absolute;
 			top: 0;
+			#responsive-menu {
+				justify-content: center;
+			}
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 { .logo { strong { color: _palette(accent2); } } }
@@ -157,12 +162,43 @@
 				display: none;
 			}
 		}
-
+		
 		body.is-loading & {
 			&.alt {
 				opacity: 0;
 			}
 		}
+
+		#responsive-menu {
+				flex-grow: 1;
+				min-width: 0;
+				// flex-basis: 5em;
+				ul.links {
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: flex-end;
+					list-style: none;
+					height: 3em;
+					min-width: 0;
+					overflow: hidden;
+					padding-left: 0;
+					flex-grow: 0;
+					flex-shrink: 1;
+					header.alt & {
+						justify-content: center;
+					}
+					// Spacer to allow menu expansion button to always show
+					li:first-of-type {
+						flex-basis: 0;
+						flex-grow: 1;
+					}
+					li {
+						height: 3em;
+						min-width: 0;
+						display: inline-block;
+					}
+				}
+			}
 
 		@include breakpoint(xlarge) {
 			nav {
