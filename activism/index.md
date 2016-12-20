@@ -13,7 +13,3 @@ We can change the future of America, but we need your help. Here are some ways t
 *  **[Phonebank](https://grassrootspb.com)**
 *  **[Text](https://textforbernie.com)**
 *  **[Volunteer - The Progressive Coders Network](http://progcode.co)**
-
-<div id="root"></div>
-<script src="{{ site.baseurl }}/assets/js/ActivismTool.js">
-</script>
