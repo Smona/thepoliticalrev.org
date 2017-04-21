@@ -6,7 +6,7 @@ import ReactDom from 'react-dom';
 export default class ActivismTool extends React.Component {
   render() {
     return (
-      <h1>And were live!</h1>
+      <h1>And we're live!</h1>
     );
   }
 }
